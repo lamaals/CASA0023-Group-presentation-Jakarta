@@ -1,8 +1,8 @@
 ---
-title: "CASA0023 Jakarta"
-subtitle: "⚔<br/>with xaringan"
-author: "Yihui Xie"
-institute: "RStudio, PBC"
+title: "JAKARTA -Saving the World's Fastest Sinking City"
+subtitle: "Group Work"
+author: "Lama Alswliman, Wing Ka Ho, Madeleinei Potter,Geetanjli Rani & Burhan Ahmad Wani"
+institute: "University College London(UCL)"
 date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
@@ -15,12 +15,3 @@ output:
 
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
 
-```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
-```
-
-???
-
-Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg)
-
----
