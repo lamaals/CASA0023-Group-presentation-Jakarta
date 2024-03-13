@@ -1,7 +1,8 @@
 ---
 title: "JAKARTA -Saving the World's Fastest Sinking City"
 subtitle: "Group Work"
-author: "Lama Alswliman, Wing Ka Ho, Madeleinei Potter,Geetanjli Rani & Burhan Ahmad Wani"
+author: "Lama Alswliman, Wing Ka Ho, Madeleinei Potter, Geetanjli Rani & Burhan Ahmad Wani"
+
 institute: "University College London(UCL)"
 date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
@@ -11,6 +12,48 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+---
+
+## Context & Background
+
+1. Jakarta is home to significant financial institutions like the Indonesia Stock Exchange and the Bank of Indonesia, along with serving as the corporate headquarters for numerous Indonesian companies and multinational corporations. This underscores its pivotal role in the country's economy.
+
+1. The area of Jakarta is 661.5km2 and is divided to five administrative cities of South Jakarta, Central Jakarta, East Jakarta, West Jakarta, and North Jakarta.
+
+1. Total population is 10 million within the city, while the total population of the entire metro area is 30 million. 
+
+---
+class: center, top
+
+## Problem Statement
+
+
+---
+class: center, top
+
+## Criticism of Approach
+
+
+
+
+
+---
+class: center, top
+
+## Methodology
+
+
+
+
+
+---
+class: center, top
+
+## Plan
+
+
+
+
 ---
 class: center, middle
 ### Budget Breakdown
@@ -23,7 +66,23 @@ library(here)
 # Read data from budget.xlsx
 budget <- read_excel(here("budget.xlsx"))
 
+
+
 # Display the table using kableExtra with styling
 budget %>%
   knitr::kable(format = 'html')
 ```
+
+
+---
+class: center, top
+
+## Recommendations
+
+
+
+
+---
+class: center, top
+
+## References
