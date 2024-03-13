@@ -12,6 +12,18 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
+class: center, middle
+### Budget Breakdown
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(knitr)
+library(readxl)
+library(kableExtra)
+library(here)
+# Read data from budget.xlsx
+budget <- read_excel(here("budget.xlsx"))
 
-background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
-
+# Display the table using kableExtra with styling
+budget %>%
+  knitr::kable(format = 'html')
+```
