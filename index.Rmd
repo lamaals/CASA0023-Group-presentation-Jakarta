@@ -27,8 +27,10 @@ BibOptions(check.entries = FALSE,
 myBib <- ReadBib("bib_group_pres.bib", check = FALSE)
 ```
 
-```{r xaringan-all, echo=FALSE, warning=FALSE}
+```{r xaringan-all, echo=FALSE, warning=FALSE, include=FALSE}
 
+library(readxl)
+library(dplyr)
 library(xaringan)
 library(xaringanExtra)
 library(knitr)
@@ -58,8 +60,6 @@ xaringanExtra::use_extra_styles(
 
 ```
 
-```{r xaringan-all, echo=FALSE, warning=FALSE}
-```
 # The significance of Jakarta
 
 .panelset.sideways[
@@ -159,9 +159,6 @@ knitr::include_graphics('methodology_workflow.png')
 1. Using risk index, produce a risk map showing areas at very high risk, high risk, moderate risk, low risk and very low risk.
 
 ---
-<<<<<<< HEAD
-## Example Outputs 
-=======
 ## Data
 .panelset[
 .panel[.panel-name[Conditional Settings]
@@ -203,7 +200,6 @@ socioecon %>%
 ]
 ---
 ## Example Outputs
->>>>>>> 5901b1f3e14f29d5e26fd3803a669839c42069eb
 
 .pull-left[
 
