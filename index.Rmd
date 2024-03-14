@@ -267,7 +267,16 @@ knitr::include_graphics('methodology_workflow.png')
 .panelset[
 .panel[.panel-name[Conditional Settings]
 
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+cond <- read_excel("Conditional_factors.xlsx")
 
+
+
+# Display the table using kableExtra with styling
+cond %>%
+  knitr::kable(format = 'html') %>%
+  kable_styling(full_width = FALSE, font_size = 12)
+```
 ]
 
 .panel[.panel-name[Previous Land Subsidence]
