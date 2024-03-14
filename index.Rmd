@@ -209,7 +209,8 @@ hist <- read_excel("Historical_LS.xlsx")
 
 # Display the table using kableExtra with styling
 hist %>%
-  knitr::kable(format = 'html') 
+  knitr::kable(format = 'html') %>%
+  kable_styling(full_width = FALSE, font_size = 12)
 ```
 ]
 
@@ -221,7 +222,8 @@ socioecon <- read_excel("Socio_economic.xlsx")
 
 # Display the table using kableExtra with styling
 socioecon %>%
-  knitr::kable(format = 'html') 
+  knitr::kable(format = 'html') %>%
+  kable_styling(full_width = FALSE, font_size = 12)
 ```
 ]
 ]
