@@ -159,7 +159,51 @@ knitr::include_graphics('methodology_workflow.png')
 1. Using risk index, produce a risk map showing areas at very high risk, high risk, moderate risk, low risk and very low risk.
 
 ---
+<<<<<<< HEAD
 ## Example Outputs 
+=======
+## Data
+.panelset[
+.panel[.panel-name[Conditional Settings]
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+cond <- read_excel("Conditional_factors.xlsx")
+
+
+
+# Display the table using kableExtra with styling
+cond %>%
+  knitr::kable(format = 'html')
+```
+]
+
+.panel[.panel-name[Previous Land Subsidence]
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+hist <- read_excel("Historical_LS.xlsx")
+
+
+
+# Display the table using kableExtra with styling
+hist %>%
+  knitr::kable(format = 'html')
+```
+]
+
+.panel[.panel-name[Socio-economic Settings]
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+socioecon <- read_excel("Socio_economic.xlsx")
+
+
+
+# Display the table using kableExtra with styling
+socioecon %>%
+  knitr::kable(format = 'html')
+```
+]
+]
+---
+## Example Outputs
+>>>>>>> 5901b1f3e14f29d5e26fd3803a669839c42069eb
 
 .pull-left[
 
@@ -199,7 +243,7 @@ class: center, top
 
 
 ---
-class: center, middle
+class: center, top
 ### Budget Breakdown
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
@@ -213,8 +257,12 @@ budget <- read_excel(here("budget.xlsx"))
 
 
 # Display the table using kableExtra with styling
-budget %>%
-  knitr::kable(format = 'html')
+styled_table <- budget %>%
+  knitr::kable(format = 'html') %>%
+  kable_styling(full_width = FALSE, font_size = 16)  # Adjust font size as needed
+  
+styled_table
+
 ```
 
 
