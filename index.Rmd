@@ -1,10 +1,10 @@
 ---
 title: "JAKARTA -Saving the World's Fastest Sinking City"
 subtitle: "Group Work"
-author: "Lama Alswliman, Wing Ka Ho, Madeleinei Potter, Geetanjli Rani & Burhan Ahmad Wani"
+author: "Lama Alswliman, Wing Ka Ho, Madeleine Potter, Geetanjli Rani & Burhan Ahmad Wani"
 
-institute: "University College London(UCL)"
-date: "2016/12/12 (updated: `r Sys.Date()`)"
+institute: "University College London"
+date: "2024/03/19 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -14,12 +14,27 @@ output:
       countIncrementalSlides: false
       
 ---
+```{r echo=FALSE, warning=FALSE}
+#remotes::install_github("ropensci/RefManageR")
+library(RefManageR)
+BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           cite.style = "authoryear",
+           style = "markdown",
+           hyperlink = TRUE,
+           dashed = FALSE,
+           no.print.fields=c("doi", "url", "urldate", "issn"))
+myBib <- ReadBib("bib_group_pres.bib", check = FALSE)
+```
 
-```{r xaringan-all, echo=FALSE}
-library(countdown)
+```{r xaringan-all, echo=FALSE, warning=FALSE, include=FALSE}
+
+library(readxl)
+library(dplyr)
 library(xaringan)
 library(xaringanExtra)
 library(knitr)
+library(knitcitations)
 
 hook_source <- knitr::knit_hooks$get('source')
 knitr::knit_hooks$set(source = function(x, options) {
@@ -44,8 +59,6 @@ xaringanExtra::use_extra_styles(
 )
 
 ```
-
----
 
 # The significance of Jakarta
 
@@ -72,13 +85,16 @@ xaringanExtra::use_extra_styles(
 
   
 ---
-
+```{r xaringan-all, echo=FALSE, warning=FALSE}
+```
 class: center, top
 
 ## Problem Statement
 
 
 ---
+```{r xaringan-all, echo=FALSE, warning=FALSE}
+```
 class: center, top
 
 ## Criticism of Approach
@@ -88,24 +104,175 @@ class: center, top
 
 
 ---
-class: center, top
+```{r xaringan-all, echo=FALSE, warning=FALSE}
+```
 
-## Methodology
-
-
-
-
-
----
-class: center, top
-
-## Plan
-
+## Benefits to Addressing Land Subsidence
 
 
 
 ---
-class: center, middle
+## Criticism to the wall approach
+.pull-left[
+* Sea wall requires frequent maintenance from coastal erosion and destroy the natural landscape of Jakarta Bay (Nunn et al., 2021)
+
+* It can only provide coastal defense but it’s unable to solve the root cause of the problem which is land subsidence.
+
+* High cost of construction and maintenance. 
+
+* Sea wall may create conflict with the dynamic coastal nature and block the sediment exchange between land and sea.
+]
+
+.pull-right[
+
+* Can disrupt natural shoreline  processes and ruin coastal habitats such as mangrove and intertidal beaches.
+
+* The build of the sea wall can have a terrible impact on the socio-economic aspect of Jakarta city.
+
+]
+---
+```{r xaringan-all, echo=FALSE, warning=FALSE}
+```
+
+## Objectives
+
+- Support the National Capital Integrated Coastal Development Project by providing data-driven monitoring and improved decision-making on land subsidence.
+
+  - Producing a land subsidence susceptibility map for better monitoring
+  - Producing a land subsidence risk map to help tackle problem areas
+  
+- Using these products:
+
+  - Identify areas that require careful monitoring and deployment of continuous global positioning systems. 
+  - Provide evidence-based recommended action on sustainable water management and infrastructure zoning.
+  - Comply with relevant national and international policies to intervene as appropriate. 
+
+
+---
+## Methodology: Workflow
+
+```{r echo=FALSE, out.width='95%', fig.align='center', fig.cap=''}
+knitr::include_graphics('methodology_workflow.png')
+
+```
+
+---
+## Methodology: Identifying Monitoring Areas
+
+1. Split the remotely sensed data on previous land subsidence and influential environmental factors into training (70%) and testing (30%).
+
+1. Preprocess the data including building raster maps for each variable. 
+
+1. Employ Random Forest algorithm with cross validation to map land subsidence susceptibility.
+
+1. Perform a permutation feature importance analysis to measure the contribution of each feature to the model.
+
+1. Validate the model using the testing data. 
+
+1. Map out land subsidence susceptibility that identifies areas of very high, high, moderate, low and very low susceptibility. 
+
+---
+## Methodology: Risk Mapping 
+
+1. Preprocess land subsidence and social data to create raster maps.
+
+1. Use Analytical Hierarchical Process (AHP) to calculate relative weights on both the land subsidence data and social data to indicate hazard and vulnerability. 
+
+1. Produce hazard and vulnerability maps using the calculated weights. 
+
+1. Combine hazard and vulnerability maps by producing a risk index.
+
+1. Using risk index, produce a risk map showing areas at very high risk, high risk, moderate risk, low risk and very low risk.
+
+---
+## Data
+.panelset[
+.panel[.panel-name[Conditional Settings]
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+cond <- read_excel("Conditional_factors.xlsx")
+
+
+
+# Display the table using kableExtra with styling
+cond %>%
+  knitr::kable(format = 'html') %>%
+  kable_styling(full_width = FALSE, font_size = 12)
+```
+]
+
+.panel[.panel-name[Previous Land Subsidence]
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+hist <- read_excel("Historical_LS.xlsx")
+
+
+
+# Display the table using kableExtra with styling
+hist %>%
+  knitr::kable(format = 'html') %>%
+  kable_styling(full_width = FALSE, font_size = 12)
+```
+]
+
+.panel[.panel-name[Socio-economic Settings]
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+socioecon <- read_excel("Socio_economic.xlsx")
+
+
+
+# Display the table using kableExtra with styling
+socioecon %>%
+  knitr::kable(format = 'html') %>%
+  kable_styling(full_width = FALSE, font_size = 12)
+```
+]
+]
+---
+## Example Outputs
+
+.pull-left[
+
+Susceptibility Map 
+
+```{r echo=FALSE, out.width='90%', fig.align='center', fig.cap=''}
+knitr::include_graphics('eg_susceptibility.png')
+
+```
+
+From: `r Citet(myBib,"gharechaeeLandSubsidenceSusceptibility2023")`
+
+]
+
+.pull-right[
+
+Risk Map 
+
+```{r echo=FALSE, out.width='87%', fig.align='center', fig.cap=''}
+knitr::include_graphics('eg_risk.png')
+
+```
+
+From: `r Citet(myBib,"bhattaraiRiskAssessmentLand2017")`
+]
+
+
+
+---
+```{r xaringan-all, echo=FALSE, warning=FALSE}
+```
+class: center, top
+
+## Recommendation Action Plan
+
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+
+knitr::include_graphics('SlideRA.jpg')
+
+```
+
+---
+class: center, top
 ### Budget Breakdown
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
@@ -119,12 +286,18 @@ budget <- read_excel(here("budget.xlsx"))
 
 
 # Display the table using kableExtra with styling
-budget %>%
-  knitr::kable(format = 'html')
+styled_table <- budget %>%
+  knitr::kable(format = 'html') %>%
+  kable_styling(full_width = FALSE, font_size = 16)  # Adjust font size as needed
+  
+styled_table
+
 ```
 
 
 ---
+```{r xaringan-all, echo=FALSE, warning=FALSE}
+```
 class: center, top
 
 ## Recommendations
@@ -133,6 +306,8 @@ class: center, top
 
 
 ---
+```{r xaringan-all, echo=FALSE, warning=FALSE}
+```
 class: center, top
 
 ## References

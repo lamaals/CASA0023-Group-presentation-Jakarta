@@ -3,7 +3,7 @@
   <head>
     <title>JAKARTA -Saving the World’s Fastest Sinking City</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Lama Alswliman, Wing Ka Ho, Madeleinei Potter, Geetanjli Rani &amp; Burhan Ahmad Wani" />
+    <meta name="author" content="Lama Alswliman, Wing Ka Ho, Madeleine Potter, Geetanjli Rani &amp; Burhan Ahmad Wani" />
     <script src="libs/header-attrs-2.25/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
@@ -31,12 +31,21 @@
     <script src="libs/tile-view-0.2.6/tile-view.js"></script>
     <link href="libs/panelset-0.2.6/panelset.css" rel="stylesheet" />
     <script src="libs/panelset-0.2.6/panelset.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x376b9d390f04c07b97fd694cd35eba8","expires":1}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"xde7377da6a74a6cb5e8a558f3b31a69","expires":1}</script>
     <script src="libs/himalaya-1.1.0/himalaya.js"></script>
     <link href="libs/editable-0.2.6/editable.css" rel="stylesheet" />
     <script src="libs/editable-0.2.6/editable.js"></script>
     <script src="libs/xaringanExtra_fit-screen-0.2.6/fit-screen.js"></script>
     <link href="libs/xaringanExtra-extra-styles-0.2.6/xaringanExtra-extra-styles.css" rel="stylesheet" />
+    <script>window.xaringanExtraClipboard(null, {"button":"Copy Code","success":"Copied!","error":"Press Ctrl+C to Copy"})</script>
+    <script>window.xaringanExtraClipboard(null, {"button":"Copy Code","success":"Copied!","error":"Press Ctrl+C to Copy"})</script>
+    <script>window.xaringanExtraClipboard(null, {"button":"Copy Code","success":"Copied!","error":"Press Ctrl+C to Copy"})</script>
+    <script>window.xaringanExtraClipboard(null, {"button":"Copy Code","success":"Copied!","error":"Press Ctrl+C to Copy"})</script>
+    <script>window.xaringanExtraClipboard(null, {"button":"Copy Code","success":"Copied!","error":"Press Ctrl+C to Copy"})</script>
+    <script src="libs/kePrint-0.0.1/kePrint.js"></script>
+    <link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+    <script>window.xaringanExtraClipboard(null, {"button":"Copy Code","success":"Copied!","error":"Press Ctrl+C to Copy"})</script>
+    <script>window.xaringanExtraClipboard(null, {"button":"Copy Code","success":"Copied!","error":"Press Ctrl+C to Copy"})</script>
   </head>
   <body>
     <textarea id="source">
@@ -49,24 +58,20 @@ class: center, middle, inverse, title-slide
 ## Group Work
 ]
 .author[
-### Lama Alswliman, Wing Ka Ho, Madeleinei Potter, Geetanjli Rani &amp; Burhan Ahmad Wani
+### Lama Alswliman, Wing Ka Ho, Madeleine Potter, Geetanjli Rani &amp; Burhan Ahmad Wani
 ]
 .institute[
-### University College London(UCL)
+### University College London
 ]
 .date[
-### 2016/12/12 (updated: 2024-03-14)
+### 2024/03/19 (updated: 2024-03-14)
 ]
 
 ---
 
 
 
-```
-## Warning: package 'countdown' was built under R version 4.3.3
-```
 
----
 
 # The significance of Jakarta
 
@@ -100,6 +105,7 @@ class: center, top
 
 
 ---
+
 class: center, top
 
 ## Criticism of Approach
@@ -109,26 +115,261 @@ class: center, top
 
 
 ---
-class: center, top
-
-## Methodology
 
 
+## Benefits to Addressing Land Subsidence
 
 
 
 ---
-class: center, top
+## Criticism to the wall approach
+.pull-left[
+* Sea wall requires frequent maintenance from coastal erosion and destroy the natural landscape of Jakarta Bay (Nunn et al., 2021)
 
-## Plan
+* It can only provide coastal defense but it’s unable to solve the root cause of the problem which is land subsidence.
+
+* High cost of construction and maintenance. 
+
+* Sea wall may create conflict with the dynamic coastal nature and block the sediment exchange between land and sea.
+]
+
+.pull-right[
+
+* Can disrupt natural shoreline  processes and ruin coastal habitats such as mangrove and intertidal beaches.
+
+* The build of the sea wall can have a terrible impact on the socio-economic aspect of Jakarta city.
+
+]
+---
 
 
+## Objectives
+
+- Support the National Capital Integrated Coastal Development Project by providing data-driven monitoring and improved decision-making on land subsidence.
+
+  - Producing a land subsidence susceptibility map for better monitoring
+  - Producing a land subsidence risk map to help tackle problem areas
+  
+- Using these products:
+
+  - Identify areas that require careful monitoring and deployment of continuous global positioning systems. 
+  - Provide evidence-based recommended action on sustainable water management and infrastructure zoning.
+  - Comply with relevant national and international policies to intervene as appropriate. 
 
 
 ---
-class: center, middle
-### Budget Breakdown
+## Methodology: Workflow
+
+&lt;img src="methodology_workflow.png" width="95%" style="display: block; margin: auto;" /&gt;
+
+---
+## Methodology: Identifying Monitoring Areas
+
+1. Split the remotely sensed data on previous land subsidence and influential environmental factors into training (70%) and testing (30%).
+
+1. Preprocess the data including building raster maps for each variable. 
+
+1. Employ Random Forest algorithm with cross validation to map land subsidence susceptibility.
+
+1. Perform a permutation feature importance analysis to measure the contribution of each feature to the model.
+
+1. Validate the model using the testing data. 
+
+1. Map out land subsidence susceptibility that identifies areas of very high, high, moderate, low and very low susceptibility. 
+
+---
+## Methodology: Risk Mapping 
+
+1. Preprocess land subsidence and social data to create raster maps.
+
+1. Use Analytical Hierarchical Process (AHP) to calculate relative weights on both the land subsidence data and social data to indicate hazard and vulnerability. 
+
+1. Produce hazard and vulnerability maps using the calculated weights. 
+
+1. Combine hazard and vulnerability maps by producing a risk index.
+
+1. Using risk index, produce a risk map showing areas at very high risk, high risk, moderate risk, low risk and very low risk.
+
+---
+## Data
+.panelset[
+.panel[.panel-name[Conditional Settings]
+
 &lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; Variable &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Source &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Spatial resolution &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Temporal resolution &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Cost &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Elevation &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NASADEM Merged DEM Global 1 arc second V001 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 30 m x 30 m &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Free (Open Data Source) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Slope &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NASADEM Merged DEM Global 1 arc second V001 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 30 m x 30 m &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Free (Open Data Source) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Curvature &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NASADEM Merged DEM Global 1 arc second V001 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 30 m x 30 m &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Free (Open Data Source) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; TWI &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Sentinel 2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 10 m x 10 m &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 10 days &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Free (Open Data Source) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; NDVI &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Sentinel 2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 10 m x 10 m &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 10 days &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Free (Open Data Source) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Lithology &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; GLIM (Global Lithological Map) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1:3,7500,000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Free (Open Data Source) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Land use &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Sentinel 2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 10 m x 10 m &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 10 days &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Free (Open Data Source) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Ground water extraction &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Ministry of Energy and Mineral Resources  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Free (Open Data Source) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Distance to fault &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; GEM Global Active Faults (Shapefile) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Free (Open Data Source) &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+]
+
+.panel[.panel-name[Previous Land Subsidence]
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; Variable &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Source &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Spatial resolution &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Temporal resolution &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Cost &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Historical Land Subsidence &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Sentinel 1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 5 m x 5 m &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 6 days &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Free (Open data source) &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+]
+
+.panel[.panel-name[Socio-economic Settings]
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; Variable &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Source &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Spatial resolution &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Temporal resolution &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Cost &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Population Density &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; WorldPop &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Free (Open data source) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Building Footprints &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Open Buildings &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Free (Open data source) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Land use &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Sentinel 2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 10 m x 10 m &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 10 days &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Free (Open Data Source) &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+]
+]
+---
+## Example Outputs
+
+.pull-left[
+
+Susceptibility Map 
+
+&lt;img src="eg_susceptibility.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+From: &lt;a name=cite-gharechaeeLandSubsidenceSusceptibility2023&gt;&lt;/a&gt;[Gharechaee, Samani, Sigaroodi, Baloochiyan, Moosavi, Hubbart, and Sadeghi (2023)](#bib-gharechaeeLandSubsidenceSusceptibility2023)
+
+]
+
+.pull-right[
+
+Risk Map 
+
+&lt;img src="eg_risk.png" width="87%" style="display: block; margin: auto;" /&gt;
+
+From: &lt;a name=cite-bhattaraiRiskAssessmentLand2017&gt;&lt;/a&gt;[Bhattarai and Kondoh (2017)](#bib-bhattaraiRiskAssessmentLand2017)
+]
+
+
+
+---
+
+class: center, top
+
+## Recommendation Action Plan
+
+
+&lt;img src="SlideRA.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+class: center, top
+### Budget Breakdown
+&lt;table class="table" style="font-size: 16px; width: auto !important; margin-left: auto; margin-right: auto;"&gt;
  &lt;thead&gt;
   &lt;tr&gt;
    &lt;th style="text-align:left;"&gt; Role &lt;/th&gt;
@@ -144,42 +385,49 @@ class: center, middle
    &lt;td style="text-align:left;"&gt; TL &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; IDR 49,560,355 &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; £ 2500 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; 30000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; £ 30000 &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
    &lt;td style="text-align:left;"&gt; Lead Data Analyst &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; LDA &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; IDR 29,736,213 &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; £ 1500 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; 18000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; £ 18000 &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
    &lt;td style="text-align:left;"&gt; Geospatial Expert &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; GE &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; IDR 19,824,142 &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; £ 1000 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; 12000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; £ 12000 &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
    &lt;td style="text-align:left;"&gt; Water Resource Expert &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; WRE &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; IDR 19,824,142 &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; £ 1000 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; 12000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; £ 12000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Geologist &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; GO &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; IDR 19,824,142 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; £ 1000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; £ 12000 &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
    &lt;td style="text-align:left;"&gt; Nodal Official &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; NO &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; IDR 15,859,313 &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; £ 800 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; 9600 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; £ 9600 &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
    &lt;td style="text-align:left;"&gt; (A) Total Salary  Cost for Project &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; £ 81,600 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; £ 93,600 &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
    &lt;td style="text-align:left;"&gt; (B)  Travel Cost for the Project &lt;/td&gt;
@@ -200,20 +448,21 @@ class: center, middle
    &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; £ 7,580 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; £ 7,180 &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; Total Expenditure &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Total Expenditure (A+B+C+D) &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; £ 159,180 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; £ 150,780 &lt;/td&gt;
   &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
 
 ---
+
 class: center, top
 
 ## Recommendations
@@ -222,6 +471,7 @@ class: center, top
 
 
 ---
+
 class: center, top
 
 ## References
