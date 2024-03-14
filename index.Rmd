@@ -111,7 +111,26 @@ class: center, top
 
 
 
------
+---
+## Criticism to the wall approach
+.pull-left[
+* Sea wall requires frequent maintenance from coastal erosion and destroy the natural landscape of Jakarta Bay (Nunn et al., 2021)
+
+* It can only provide coastal defense but it’s unable to solve the root cause of the problem which is land subsidence.
+
+* High cost of construction and maintenance. 
+
+* Sea wall may create conflict with the dynamic coastal nature and block the sediment exchange between land and sea.
+]
+
+.pull-right[
+
+* Can disrupt natural shoreline  processes and ruin coastal habitats such as mangrove and intertidal beaches.
+
+* The build of the sea wall can have a terrible impact on the socio-economic aspect of Jakarta city.
+
+]
+---
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
 ```
 
