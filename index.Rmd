@@ -1,10 +1,10 @@
 ---
 title: "JAKARTA -Saving the World's Fastest Sinking City"
 subtitle: "Group Work"
-author: "Lama Alswliman, Wing Ka Ho, Madeleinei Potter, Geetanjli Rani & Burhan Ahmad Wani"
+author: "Lama Alswliman, Wing Ka Ho, Madeleine Potter, Geetanjli Rani & Burhan Ahmad Wani"
 
-institute: "University College London(UCL)"
-date: "2016/12/12 (updated: `r Sys.Date()`)"
+institute: "University College London"
+date: "2024/03/19 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -14,12 +14,27 @@ output:
       countIncrementalSlides: false
       
 ---
+```{r echo=FALSE, warning=FALSE}
+#remotes::install_github("ropensci/RefManageR")
+library(RefManageR)
+BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           cite.style = "authoryear",
+           style = "markdown",
+           hyperlink = TRUE,
+           dashed = FALSE,
+           no.print.fields=c("doi", "url", "urldate", "issn"))
+myBib <- ReadBib("bib_group_pres.bib", check = FALSE)
+```
 
-```{r xaringan-all, echo=FALSE, warning=FALSE}
+```{r xaringan-all, echo=FALSE, warning=FALSE, include=FALSE}
 
+library(readxl)
+library(dplyr)
 library(xaringan)
 library(xaringanExtra)
 library(knitr)
+library(knitcitations)
 
 hook_source <- knitr::knit_hooks$get('source')
 knitr::knit_hooks$set(source = function(x, options) {
@@ -45,8 +60,6 @@ xaringanExtra::use_extra_styles(
 
 ```
 
-```{r xaringan-all, echo=FALSE, warning=FALSE}
-```
 # The significance of Jakarta
 
 .panelset.sideways[
@@ -94,6 +107,32 @@ class: center, top
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
 ```
 
+## Benefits to Addressing Land Subsidence
+
+
+
+---
+## Criticism to the wall approach
+.pull-left[
+* Sea wall requires frequent maintenance from coastal erosion and destroy the natural landscape of Jakarta Bay (Nunn et al., 2021)
+
+* It can only provide coastal defense but it’s unable to solve the root cause of the problem which is land subsidence.
+
+* High cost of construction and maintenance. 
+
+* Sea wall may create conflict with the dynamic coastal nature and block the sediment exchange between land and sea.
+]
+
+.pull-right[
+
+* Can disrupt natural shoreline  processes and ruin coastal habitats such as mangrove and intertidal beaches.
+
+* The build of the sea wall can have a terrible impact on the socio-economic aspect of Jakarta city.
+
+]
+---
+```{r xaringan-all, echo=FALSE, warning=FALSE}
+```
 
 ## Objectives
 
@@ -130,7 +169,7 @@ knitr::include_graphics('methodology_workflow.png')
 
 1. Validate the model using the testing data. 
 
-1. Map out land subsidence susceptibility that identifies areas of very high, high, medium, low and very low susceptibility. 
+1. Map out land subsidence susceptibility that identifies areas of very high, high, moderate, low and very low susceptibility. 
 
 ---
 ## Methodology: Risk Mapping 
@@ -143,7 +182,7 @@ knitr::include_graphics('methodology_workflow.png')
 
 1. Combine hazard and vulnerability maps by producing a risk index.
 
-1. Using risk index, produce a risk map showing areas at very high risk, high risk, medium risk, low risk and very low risk.
+1. Using risk index, produce a risk map showing areas at very high risk, high risk, moderate risk, low risk and very low risk.
 
 ---
 ## Data
@@ -164,8 +203,9 @@ cond <- read_excel(here("Conditional_factors.xlsx"))
 
 # Display the table using kableExtra with styling
 cond %>%
+  
   knitr::kable(format = 'html')%>%
-  kable_styling(full_width = FALSE, font_size = 12)
+  kable_styling(full_width = FALSE, font_size = 10)
 ```
 ]
 
@@ -177,7 +217,7 @@ hist <- read_excel("Historical_LS.xlsx")
 
 # Display the table using kableExtra with styling
 hist %>%
-  knitr::kable(format = 'html')%>%
+  knitr::kable(format = 'html') %>%
   kable_styling(full_width = FALSE, font_size = 12)
 ```
 ]
@@ -190,7 +230,7 @@ socioecon <- read_excel("Socio_economic.xlsx")
 
 # Display the table using kableExtra with styling
 socioecon %>%
-  knitr::kable(format = 'html')%>%
+  knitr::kable(format = 'html') %>%
   kable_styling(full_width = FALSE, font_size = 12)
 ```
 ]
@@ -200,36 +240,44 @@ socioecon %>%
 
 .pull-left[
 
-Susceptibility Map
+Susceptibility Map 
 
-```{r echo=FALSE, out.width='80%', fig.align='center', fig.cap='From:'}
+```{r echo=FALSE, out.width='90%', fig.align='center', fig.cap=''}
 knitr::include_graphics('eg_susceptibility.png')
 
 ```
+
+From: `r Citet(myBib,"gharechaeeLandSubsidenceSusceptibility2023")`
 
 ]
 
 .pull-right[
 
-Risk Map
-```{r echo=FALSE, out.width='77%', fig.align='center', fig.cap='From:'}
+Risk Map 
+
+```{r echo=FALSE, out.width='87%', fig.align='center', fig.cap=''}
 knitr::include_graphics('eg_risk.png')
 
 ```
 
+From: `r Citet(myBib,"bhattaraiRiskAssessmentLand2017")`
 ]
 
-https://www.mdpi.com/2073-445X/12/4/843
+
 
 ---
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
 ```
 class: center, top
 
-## Plan
+## Recommendation Action Plan
 
 
+```{r echo=FALSE, out.width='100%', fig.align='center'}
 
+knitr::include_graphics('SlideRA.jpg')
+
+```
 
 ---
 class: center, top
