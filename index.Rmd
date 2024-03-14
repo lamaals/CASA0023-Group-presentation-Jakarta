@@ -15,8 +15,8 @@ output:
       
 ---
 
-```{r xaringan-all, echo=FALSE}
-library(countdown)
+```{r xaringan-all, echo=FALSE, warning=FALSE}
+
 library(xaringan)
 library(xaringanExtra)
 library(knitr)
@@ -45,8 +45,8 @@ xaringanExtra::use_extra_styles(
 
 ```
 
----
-
+```{r xaringan-all, echo=FALSE, warning=FALSE}
+```
 # The significance of Jakarta
 
 .panelset.sideways[
@@ -72,13 +72,16 @@ xaringanExtra::use_extra_styles(
 
   
 ---
-
+```{r xaringan-all, echo=FALSE, warning=FALSE}
+```
 class: center, top
 
 ## Problem Statement
 
 
 ---
+```{r xaringan-all, echo=FALSE, warning=FALSE}
+```
 class: center, top
 
 ## Criticism of Approach
@@ -88,6 +91,8 @@ class: center, top
 
 
 ---
+```{r xaringan-all, echo=FALSE, warning=FALSE}
+```
 class: center, top
 
 ## Methodology
@@ -97,6 +102,8 @@ class: center, top
 
 
 ---
+```{r xaringan-all, echo=FALSE, warning=FALSE}
+```
 class: center, top
 
 ## Plan
@@ -125,6 +132,8 @@ budget %>%
 
 
 ---
+```{r xaringan-all, echo=FALSE, warning=FALSE}
+```
 class: center, top
 
 ## Recommendations
@@ -133,6 +142,8 @@ class: center, top
 
 
 ---
+```{r xaringan-all, echo=FALSE, warning=FALSE}
+```
 class: center, top
 
 ## References
