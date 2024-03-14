@@ -31,7 +31,7 @@
     <script src="libs/tile-view-0.2.6/tile-view.js"></script>
     <link href="libs/panelset-0.2.6/panelset.css" rel="stylesheet" />
     <script src="libs/panelset-0.2.6/panelset.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"a74d5bf5865448358d8eedb2fc10cd7d","expires":1}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"f68159fa14874ef9905565e66a9694a0","expires":1}</script>
     <script src="libs/himalaya-1.1.0/himalaya.js"></script>
     <link href="libs/editable-0.2.6/editable.css" rel="stylesheet" />
     <script src="libs/editable-0.2.6/editable.js"></script>
@@ -114,13 +114,80 @@ class: center, top
 
 ---
 
-class: center, top
-
-## Methodology
 
 
+## Objectives
+
+- Support the National Capital Integrated Coastal Development Project by providing data-driven monitoring and improved decision-making on land subsidence.
+
+  - Producing a land subsidence susceptibility map for better monitoring
+  - Producing a land subsidence risk map to help tackle problem areas
+  
+- Using these products:
+
+  - Identify areas that require careful monitoring and deployment of continuous global positioning systems. 
+  - Provide evidence-based recommended action on sustainable water management and infrastructure zoning.
+  - Comply with relevant national and international policies to intervene as appropriate. 
 
 
+---
+## Methodology: Workflow
+
+&lt;img src="methodology_workflow.png" width="95%" style="display: block; margin: auto;" /&gt;
+
+---
+## Methodology: Identifying Monitoring Areas
+
+1. Split the remotely sensed data on previous land subsidence and influential environmental factors into training (70%) and testing (30%).
+
+1. Preprocess the data including building raster maps for each variable. 
+
+1. Employ Random Forest algorithm with cross validation to map land subsidence susceptibility.
+
+1. Perform a permutation feature importance analysis to measure the contribution of each feature to the model.
+
+1. Validate the model using the testing data. 
+
+1. Map out land subsidence susceptibility that identifies areas of very high, high, medium, low and very low susceptibility. 
+
+---
+## Methodology: Risk Mapping 
+
+1. Preprocess land subsidence and social data to create raster maps.
+
+1. Use Analytical Hierarchical Process (AHP) to calculate relative weights on both the land subsidence data and social data to indicate hazard and vulnerability. 
+
+1. Produce hazard and vulnerability maps using the calculated weights. 
+
+1. Combine hazard and vulnerability maps by producing a risk index.
+
+1. Using risk index, produce a risk map showing areas at very high risk, high risk, medium risk, low risk and very low risk.
+
+---
+## Example Outputs
+
+.pull-left[
+
+Susceptibility Map
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="eg_susceptibility.png" alt="From:" width="80%" /&gt;
+&lt;p class="caption"&gt;From:&lt;/p&gt;
+&lt;/div&gt;
+
+]
+
+.pull-right[
+
+Risk Map
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="eg_risk.png" alt="From:" width="77%" /&gt;
+&lt;p class="caption"&gt;From:&lt;/p&gt;
+&lt;/div&gt;
+
+]
+
+https://www.mdpi.com/2073-445X/12/4/843
 
 ---
 

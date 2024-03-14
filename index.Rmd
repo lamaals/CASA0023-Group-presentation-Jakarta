@@ -93,13 +93,83 @@ class: center, top
 ---
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
 ```
-class: center, top
-
-## Methodology
 
 
+## Objectives
+
+- Support the National Capital Integrated Coastal Development Project by providing data-driven monitoring and improved decision-making on land subsidence.
+
+  - Producing a land subsidence susceptibility map for better monitoring
+  - Producing a land subsidence risk map to help tackle problem areas
+  
+- Using these products:
+
+  - Identify areas that require careful monitoring and deployment of continuous global positioning systems. 
+  - Provide evidence-based recommended action on sustainable water management and infrastructure zoning.
+  - Comply with relevant national and international policies to intervene as appropriate. 
 
 
+---
+## Methodology: Workflow
+
+```{r echo=FALSE, out.width='95%', fig.align='center', fig.cap=''}
+knitr::include_graphics('methodology_workflow.png')
+
+```
+
+---
+## Methodology: Identifying Monitoring Areas
+
+1. Split the remotely sensed data on previous land subsidence and influential environmental factors into training (70%) and testing (30%).
+
+1. Preprocess the data including building raster maps for each variable. 
+
+1. Employ Random Forest algorithm with cross validation to map land subsidence susceptibility.
+
+1. Perform a permutation feature importance analysis to measure the contribution of each feature to the model.
+
+1. Validate the model using the testing data. 
+
+1. Map out land subsidence susceptibility that identifies areas of very high, high, medium, low and very low susceptibility. 
+
+---
+## Methodology: Risk Mapping 
+
+1. Preprocess land subsidence and social data to create raster maps.
+
+1. Use Analytical Hierarchical Process (AHP) to calculate relative weights on both the land subsidence data and social data to indicate hazard and vulnerability. 
+
+1. Produce hazard and vulnerability maps using the calculated weights. 
+
+1. Combine hazard and vulnerability maps by producing a risk index.
+
+1. Using risk index, produce a risk map showing areas at very high risk, high risk, medium risk, low risk and very low risk.
+
+---
+## Example Outputs
+
+.pull-left[
+
+Susceptibility Map
+
+```{r echo=FALSE, out.width='80%', fig.align='center', fig.cap='From:'}
+knitr::include_graphics('eg_susceptibility.png')
+
+```
+
+]
+
+.pull-right[
+
+Risk Map
+```{r echo=FALSE, out.width='77%', fig.align='center', fig.cap='From:'}
+knitr::include_graphics('eg_risk.png')
+
+```
+
+]
+
+https://www.mdpi.com/2073-445X/12/4/843
 
 ---
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
