@@ -182,7 +182,7 @@ class: center, top
 
 
 ---
-class: center, middle
+class: center, top
 ### Budget Breakdown
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
@@ -196,8 +196,12 @@ budget <- read_excel(here("budget.xlsx"))
 
 
 # Display the table using kableExtra with styling
-budget %>%
-  knitr::kable(format = 'html')
+styled_table <- budget %>%
+  knitr::kable(format = 'html') %>%
+  kable_styling(full_width = FALSE, font_size = 16)  # Adjust font size as needed
+  
+styled_table
+
 ```
 
 
