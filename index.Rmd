@@ -146,6 +146,46 @@ knitr::include_graphics('methodology_workflow.png')
 1. Using risk index, produce a risk map showing areas at very high risk, high risk, medium risk, low risk and very low risk.
 
 ---
+## Data
+.panelset[
+.panel[.panel-name[Conditional Settings]
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+cond <- read_excel("Conditional_factors.xlsx")
+
+
+
+# Display the table using kableExtra with styling
+cond %>%
+  knitr::kable(format = 'html')
+```
+]
+
+.panel[.panel-name[Previous Land Subsidence]
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+hist <- read_excel("Historical_LS.xlsx")
+
+
+
+# Display the table using kableExtra with styling
+hist %>%
+  knitr::kable(format = 'html')
+```
+]
+
+.panel[.panel-name[Socio-economic Settings]
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+socioecon <- read_excel("Socio_economic.xlsx")
+
+
+
+# Display the table using kableExtra with styling
+socioecon %>%
+  knitr::kable(format = 'html')
+```
+]
+]
+---
 ## Example Outputs
 
 .pull-left[
