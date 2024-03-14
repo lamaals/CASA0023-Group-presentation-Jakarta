@@ -259,10 +259,14 @@ From: `r Citet(myBib,"bhattaraiRiskAssessmentLand2017")`
 ```
 class: center, top
 
-## Plan
+## Recommendation Action Plan
 
 
+```{r echo=FALSE, out.width='100%', fig.align='center'}
 
+knitr::include_graphics('Img/SlideRA.jpg')
+
+```
 
 ---
 class: center, top
