@@ -89,18 +89,39 @@ xaringanExtra::use_extra_styles(
 ```
 class: center, top
 
-## Problem Statement
+## Highlighting the problem 
 
+.panelset[
 
+.panel[.panel-name[The Sinking Capital]
+
+* Jakarta, the capital of Indonesia, has been at risk of becoming the first megacity to completely sink. This is attributed to factors such as rising sea levels, land subsidence, construction on soft sediments, and natural sediment compaction. The northern part of Jakarta currently sits approximately 2.5 meters below sea level, with estimates indicating that by 2050, 40% of the area will be sunk. Each year, Jakarta experiences between 1 to 10 sinking incidents. 
+
+]
+
+.panel[.panel-name[Jakrta Master Plan]
+
+* To protect Jakarta the government came up with an idea of building a wall on the city cost line, in 2008 this wall was created but, due to the subsidence this sea wall is already at a critically low level.
+
+]
+
+.panel[.panel-name[The Main Cause]
+
+* Land subsidence in Jakarta displays spatial and temporal variations, typically occurring at rates of approximately 3 to 10 centimetre's per year. Currently, detailed understanding of the characteristics and mechanisms of land subsidence in Jakarta, both spatially and temporally, remains incomplete. Furthermore, accurately estimating and modelling the contribution of each causative factor to observed land subsidence in specific areas is still necessary
+
+]
+]
 ---
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
 ```
-class: center, top
 
-## Criticism of Approach
+## Causes of Subsidence
 
+* Physical factors for land subsidence: earthquakes (Indonesia is locating above the destructive plate boundaries where earthquakes happened frequently) (Bott et al., 2021).
 
+* Human/ social factor for land subsidence: groundwater extraction, rapid urban development, improper agricultural practices (Adibin et al., 2011)
 
+* Natural consolidation of alluvium soil, load of infrastructures and constructions, and tectonic activities 
 
 
 ---
@@ -110,6 +131,63 @@ class: center, top
 ## Benefits to Addressing Land Subsidence
 
 
+
+---
+## Impact of land subsidence  
+
+.panelset[
+
+.panel[.panel-name[Infrastructure]
+
+* Cracking of permanent constructions and roads.
+
+* Tilting of houses and buildings.
+
+* “Sinking” of houses and buildings.
+
+* Breaking of underground pipelines and utilities.
+
+* Malfunction of sewerage and drainage system 
+ 
+* Deterioration in function of building and infrastructures
+
+]
+
+.panel[.panel-name[Environment]
+
+* Changes in river canal and drain flow systems indirect.
+
+* Frequent coastal flooding.
+
+* Wider expansion of flooding areas. 
+
+* Inundated areas and infrastructures.
+
+* Increased inland sea water intrusion.
+
+* Deterioration in quality of environmental condition
+
+]
+
+.panel[.panel-name[Economic]
+
+* Increase in maintenance cost of infrastructure.
+
+* decrease in land and property values.
+
+* Abandoned buildings and facilities.
+
+* Disruption to economic activities
+]
+
+.panel[.panel-name[Social]
+
+* Deterioration in quality of living environment and life health and 
+
+
+* disruprion to daily activities of people.
+]
+]
 
 ---
 ## Criticism to the wall approach
@@ -189,16 +267,7 @@ knitr::include_graphics('methodology_workflow.png')
 .panelset[
 .panel[.panel-name[Conditional Settings]
 
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-cond <- read_excel("Conditional_factors.xlsx")
 
-
-
-# Display the table using kableExtra with styling
-cond %>%
-  knitr::kable(format = 'html') %>%
-  kable_styling(full_width = FALSE, font_size = 12)
-```
 ]
 
 .panel[.panel-name[Previous Land Subsidence]
