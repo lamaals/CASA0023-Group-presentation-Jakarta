@@ -601,18 +601,18 @@ class: text-justify
 
 ## References
 
-- 1FINAL version. Master Plan. National Capital Integrated Coastal Development.
+- FINAL version. Master Plan. National Capital Integrated Coastal Development.
 
-- 2Integrated Coastal Area Management of the North Coast of Jakarta in the Use of Coastal Space.
+- Integrated Coastal Area Management of the North Coast of Jakarta in the Use of Coastal Space.
 
-- 3Case Study: C40 Good Practice Guides: Jakarta - Coastal Defence Strategy and Flood Mapping
+- Case Study: C40 Good Practice Guides: Jakarta - Coastal Defence Strategy and Flood Mapping
 Management Regulation of Indonesia’s Coastal and Sea Areas
 
-- 4COASTAL ZONE SPACE IN INDONESIA: PRELUDE TO CONFLICT?
+- COASTAL ZONE SPACE IN INDONESIA: PRELUDE TO CONFLICT?
 
-- 5https://www.nationalgeographic.com/environment/article/indonesias-giant-capital-city-is-sinking-can-the-governments-plan-save-it
+- https://www.nationalgeographic.com/environment/article/indonesias-giant-capital-city-is-sinking-can-the-governments-plan-save-it
 
-- 6https://courseware.cutm.ac.in/wp-content/uploads/2020/06/Application-of-remote-sensing-in-CZM.pdf
+- https://courseware.cutm.ac.in/wp-content/uploads/2020/06/Application-of-remote-sensing-in-CZM.pdf
 
 
 
