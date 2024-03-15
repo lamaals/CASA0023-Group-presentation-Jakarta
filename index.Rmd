@@ -540,11 +540,11 @@ styled_table
 
 ---
 
-# Limitations
+## Limitations
 
 .pull-left[
 
-## Scope
+### Scope
 
 - ** Integrated Master Plan is inclusive of short-term and long-term solutions with mission and approach detailing spatial alternatives for flood safety, social aspects, land reclamation, business & residential, main ports, mobility & infrastructure, water management, recreation-green space, environmental impact. However, our project only covers land subsidence that might directly provide integrated solutions to other sectors of master plan. **  
 
@@ -554,7 +554,7 @@ styled_table
 
 .pull-right[
 
-## Limitations and Uncertainity
+### Limitations and Uncertainity
 
 - The urgency of municipal disaster risk reduction lies on mitigating subsidence and not protecting against sea level rise (SLR).
 
@@ -572,17 +572,22 @@ styled_table
 
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
 ```
-class: center, top
+class: text-justify
 
-## Recommendations
+## Reflection
 
+Apart from the global problem of Climate Change, the main factor that is affecting the sinking of Jakarta City is its Land Subsidence. So, our plan will address to mitigate that problem via both Predictive & Preventive Measures.
 
+```{r echo=FALSE, out.width='70%', fig.align='center', fig.cap=''}
+knitr::include_graphics('land_Subsidence.jpg')
 
+```
+<small>From: Land Subsidence vs Climate Change - Jakarta, Source: [Journal of Water and Climate Change](https://climatescience.ru/uploads/pubs/0/04/04f/04f04a32145609d55ad7d154c9136fef.pdf)</small>
 
 ---
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
 ```
-class: center, top
+class: text-justify
 
 ## References
 
