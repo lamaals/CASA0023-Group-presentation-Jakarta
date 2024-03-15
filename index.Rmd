@@ -7,6 +7,7 @@ institute: "University College London"
 date: "2024/03/19"
 output:
   xaringan::moon_reader:
+    css: xaringan-themer.css
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -35,6 +36,7 @@ library(xaringan)
 library(xaringanExtra)
 library(knitr)
 library(knitcitations)
+library(xaringanthemer)
 
 hook_source <- knitr::knit_hooks$get('source')
 knitr::knit_hooks$set(source = function(x, options) {
@@ -60,6 +62,15 @@ xaringanExtra::use_extra_styles(
 
 ```
 
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+style_mono_accent(
+  base_color = "#399cbd",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+
+```
 # The significance of Jakarta
 
 .panelset.sideways[
@@ -358,8 +369,8 @@ knitr::include_graphics("E_PRINT_15.jpg")
 ---
 ## Methodology: Workflow
 
-```{r echo=FALSE, out.width='95%', fig.align='center', fig.cap=''}
-knitr::include_graphics('methodology_workflow.png')
+```{r echo=FALSE, out.width='100%', fig.align='center', fig.cap=''}
+knitr::include_graphics('edited_methodology.png')
 
 ```
 
@@ -378,7 +389,13 @@ knitr::include_graphics('methodology_workflow.png')
 
 1. Map out land subsidence susceptibility that identifies areas of very high, high, moderate, low and very low susceptibility. 
 
+![](risk_scale.png)
+
 ---
+```{r echo=FALSE, out.width='90%', fig.align='bottom', fig.cap=''}
+
+```
+
 ## Methodology: Risk Mapping 
 
 1. Preprocess land subsidence and social data to create raster maps.
@@ -391,6 +408,7 @@ knitr::include_graphics('methodology_workflow.png')
 
 1. Using risk index, produce a risk map showing areas at very high risk, high risk, moderate risk, low risk and very low risk.
 
+![](multicriteria_analysis.png)
 ---
 ## Data
 
@@ -475,7 +493,7 @@ From: `r Citet(myBib,"bhattaraiRiskAssessmentLand2017")`
 ---
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
 ```
-class: center, top
+class: top
 
 ## Recommended Action Plan
 
@@ -515,7 +533,7 @@ knitr::include_graphics('GC.jpg')
 
 
 ---
-class: center, top
+class: top
 ### Budget Breakdown
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
@@ -547,25 +565,17 @@ styled_table
 ### Scope
 
 - ** Integrated Master Plan is inclusive of short-term and long-term solutions with mission and approach detailing spatial alternatives for flood safety, social aspects, land reclamation, business & residential, main ports, mobility & infrastructure, water management, recreation-green space, environmental impact. However, our project only covers land subsidence that might directly provide integrated solutions to other sectors of master plan. **  
-
 - 
-
 ]
-
 .pull-right[
 
 ### Limitations and Uncertainity
 
 - The urgency of municipal disaster risk reduction lies on mitigating subsidence and not protecting against sea level rise (SLR).
-
 - Problem of Machine Learning.
-
 - Problem of mis-trust between public and government effecting participatory and consultative meetings.
-
 - Unexpected Employee turnover.
-
 - Unexpected Data cost at freeware platforms.
-
 ]
 
 ---
