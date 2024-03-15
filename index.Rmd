@@ -299,6 +299,8 @@ knitr::include_graphics('jakarta_sinking_animated.gif')
 
 - Protection of businesses and industry such as coastal tourism. 
 
+- To ensure clean groundwater supply by avoiding seawater intrusion to groundwater table
+
 ---
 ## Criticism to the wall approach
 .pull-left[
@@ -472,7 +474,7 @@ knitr::include_graphics('SlideRA.jpg')
 
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
 
-knitr::include_graphics('Img/RA.jpg')
+knitr::include_graphics('RA.jpg')
 
 ```
 
@@ -485,7 +487,7 @@ Jakarta Susceptibility/ Risk Assessment Gantt Chart
 
 ```{r echo=FALSE, out.width='90%', fig.align='center'}
 
-knitr::include_graphics('Img/GC.jpg')
+knitr::include_graphics('GC.jpg')
 
 ```
 .footnote[
