@@ -559,7 +559,7 @@ styled_table
 
 - The urgency of municipal disaster risk reduction lies on mitigating subsidence and not protecting against sea level rise (SLR).
 
-- Problem of ML
+- Problem of Machine Learning
 ]
 
 ---
