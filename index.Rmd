@@ -280,8 +280,10 @@ knitr::include_graphics('jakarta_sinking_animated.gif')
 
 * Deterioration in quality of living environment and life health and 
 
+* Possibility of seawater intrusion to the lowered groundwater table, thus lack of clean water supply
 
-* disruprion to daily activities of people.
+
+* Disruption to daily activities of people.
 ]
 ]
 
