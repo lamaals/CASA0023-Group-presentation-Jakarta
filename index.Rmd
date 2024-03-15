@@ -112,6 +112,101 @@ xaringanExtra::use_extra_styles(
 ]
 
 ---
+## Global agendas and goals 1
+###  The Sendai Framework for Disaster Risk Reduction (2015)
+
+.pull-left[
+```{r echo=FALSE, out.width="80%"}
+knitr::include_graphics("SendaiFramrwork.jpeg")
+```
+]
+.pull-right[
+
+
+* To understand disaster risk
+
+* To reduce vulnerability of coastal regions by enhancing resilience capacity e.g., preparedness to disasters
+
+* To strengthen local governance towards disaster risk management in accordance with this global framework -- a top down approach
+
+* Recognises the state has the primary role for DRR
+
+* Stakeholders should share the responsibility with the state
+
+
+]
+---
+## Global agendas and goals 2
+### Sustainable Development Goals (SDGs)
+.panelset[
+.panel[.panel-name[SDG 6]
+
+.pull-left[
+
+```{r echo=FALSE, out.width="80%"}
+knitr::include_graphics("E_PRINT_06.jpg")
+```
+]
+.pull-right[
+**Target 6.4**
+
+* By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity
+]
+
+
+]
+
+.panel[.panel-name[SDG 11]
+.pull-left[
+
+```{r echo=FALSE, out.width="80%"}
+knitr::include_graphics("E_PRINT_11.jpg")
+```
+]
+.pull-right[
+**Target 11.3**
+
+* By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries
+]
+
+
+]
+
+.panel[.panel-name[SDG 13]
+.pull-left[
+
+```{r echo=FALSE, out.width="80%"}
+knitr::include_graphics("E_PRINT_13.jpg")
+```
+]
+.pull-right[
+**Target 13.1**
+
+* Strengthen resilience and adaptive capacity to climate-related hazards and natural disasters in all countries
+
+**Target 13.2**
+* Integrate climate change measures into national policies, strategies and planning
+
+]
+
+]
+
+
+.panel[.panel-name[SDG 15]
+.pull-left[
+```{r echo=FALSE, out.width="80%"}
+knitr::include_graphics("E_PRINT_15.jpg")
+```
+]
+.pull-right[
+**Target 15.3**
+
+* By 2030, combat desertification, restore degraded land and soil, including land affected by desertification, drought and floods, and strive to achieve a land degradation-neutral world
+]
+]
+]
+
+---
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
 ```
 
