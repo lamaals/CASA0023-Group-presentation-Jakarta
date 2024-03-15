@@ -4,7 +4,7 @@ subtitle: "Group Work"
 author: "Lama Alswliman, Wing Ka Ho, Madeleine Potter, Geetanjli Rani & Burhan Ahmad Wani"
 
 institute: "University College London"
-date: "2024/03/19 (updated: `r Sys.Date()`)"
+date: "2024/03/19"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -98,9 +98,11 @@ xaringanExtra::use_extra_styles(
 
 ]
 
-.panel[.panel-name[Jakrta Master Plan]
+.panel[.panel-name[NCICD]
 
-* To protect Jakarta the government came up with an idea of building a wall on the city cost line, in 2008 this wall was created but, due to the subsidence this sea wall is already at a critically low level.
+* To protect Jakarta from coastal flooding, the National Capital Integrated Coastal Development (NCID) was developed, with the main plan surrounding the construction of a sea wall which could reach 32km in length `r Citet(myBib,"GiantSeaWall")`.
+
+
 
 ]
 
@@ -207,8 +209,13 @@ knitr::include_graphics("E_PRINT_15.jpg")
 ]
 
 ---
-```{r xaringan-all, echo=FALSE, warning=FALSE}
+```{r xaringanExtra-freezeframe, echo=FALSE, warning=FALSE}
+xaringanExtra::use_freezeframe()
+
+knitr::include_graphics('jakarta_sinking_animated.gif')
 ```
+
+
 
 ## Causes of Subsidence
 
@@ -217,14 +224,6 @@ knitr::include_graphics("E_PRINT_15.jpg")
 * Human/ social factor for land subsidence: groundwater extraction, rapid urban development, improper agricultural practices (Adibin et al., 2011)
 
 * Natural consolidation of alluvium soil, load of infrastructures and constructions, and tectonic activities 
-
----
-```{r xaringan-all, echo=FALSE, warning=FALSE}
-```
-
-## Benefits to Addressing Land Subsidence
-
-
 
 ---
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
@@ -285,6 +284,20 @@ knitr::include_graphics("E_PRINT_15.jpg")
 * disruprion to daily activities of people.
 ]
 ]
+
+---
+```{r xaringan-all, echo=FALSE, warning=FALSE}
+```
+
+## Benefits to Addressing Land Subsidence
+
+- Reduced loss of land.
+
+- Reduced damage to infrastructure such as roads and buildings.
+
+- Reduced flood risk.
+
+- Protection of businesses and industry such as coastal tourism. 
 
 ---
 ## Criticism to the wall approach
