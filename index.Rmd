@@ -539,27 +539,32 @@ styled_table
 
 ---
 
-# Risk and Limitations
+# Limitations
 
 .pull-left[
 
-## Risk
+## Scope
 
-- Unexpected Employee turnover
+- ** Integrated Master Plan is inclusive of short-term and long-term solutions with mission and approach detailing spatial alternatives for flood safety, social aspects, land reclamation, business & residential, main ports, mobility & infrastructure, water management, recreation-green space, environmental impact. However, our project only covers land subsidence that might directly provide integrated solutions to other sectors of master plan. **  
 
-- Unexpected Data cost at freeware platforms
+- 
 
 ]
 
 .pull-right[
 
-## Limitations
-
-- Master Plan: Integrated short-term and long-term solutions with mission and approach detailing spatial alternatives flood safety, social aspects, land reclamation, business & residential, main ports, mobility & infrastructure, water management, recreation-green space, environmental impact.
+## Limitations and Uncertainity
 
 - The urgency of municipal disaster risk reduction lies on mitigating subsidence and not protecting against sea level rise (SLR).
 
-- Problem of Machine Learning
+- Problem of Machine Learning.
+
+- Problem of mis-trust between public and government effecting participatory and consultative meetings.
+
+- Unexpected Employee turnover.
+
+- Unexpected Data cost at freeware platforms.
+
 ]
 
 ---
@@ -580,18 +585,18 @@ class: center, top
 
 ## References
 
-- FINAL version. Master Plan. National Capital Integrated Coastal Development.
+- 1FINAL version. Master Plan. National Capital Integrated Coastal Development.
 
-- Integrated Coastal Area Management of the North Coast of Jakarta in the Use of Coastal Space.
+- 2Integrated Coastal Area Management of the North Coast of Jakarta in the Use of Coastal Space.
 
-- Case Study: C40 Good Practice Guides: Jakarta - Coastal Defence Strategy and Flood Mapping
+- 3Case Study: C40 Good Practice Guides: Jakarta - Coastal Defence Strategy and Flood Mapping
 Management Regulation of Indonesia’s Coastal and Sea Areas
 
-- COASTAL ZONE SPACE IN INDONESIA: PRELUDE TO CONFLICT?
+- 4COASTAL ZONE SPACE IN INDONESIA: PRELUDE TO CONFLICT?
 
-- https://www.nationalgeographic.com/environment/article/indonesias-giant-capital-city-is-sinking-can-the-governments-plan-save-it
+- 5https://www.nationalgeographic.com/environment/article/indonesias-giant-capital-city-is-sinking-can-the-governments-plan-save-it
 
-- https://courseware.cutm.ac.in/wp-content/uploads/2020/06/Application-of-remote-sensing-in-CZM.pdf
+- 6https://courseware.cutm.ac.in/wp-content/uploads/2020/06/Application-of-remote-sensing-in-CZM.pdf
 
 
 
