@@ -16,7 +16,7 @@ output:
 ---
 ```{r echo=FALSE, warning=FALSE}
 #remotes::install_github("ropensci/RefManageR")
-library(RefManageR)
+library(RefManageR) 
 BibOptions(check.entries = FALSE,
            bib.style = "authoryear",
            cite.style = "authoryear",
@@ -499,26 +499,20 @@ knitr::include_graphics('RA.jpg')
 
 ## Project: Gantt Chart
 
-Jakarta Susceptibility/ Risk Assessment Gantt Chart
-- Experts: TL<sup>1</sup>, LDA<sup>2</sup>, GE<sup>3</sup>, GO<sup>4</sup>, WRE<sup>5</sup>, NO<sup>6</sup>.
+**Experts: TL<sup>1</sup>, LDA<sup>2</sup>, GE<sup>3</sup>, GO<sup>4</sup>, WRE<sup>5</sup>, NO<sup>6</sup>.**
 
-```{r echo=FALSE, out.width='90%', fig.align='center'}
+```{r echo=FALSE, out.width='80%', fig.align='center'}
 
 knitr::include_graphics('GC.jpg')
 
 ```
 .footnote[
-.pull-left[
-- [1] Team Leader
-- [2] Lead Data Analyst
-- [3] Geo-spatial Expert
+[1] Team Leader [2] Lead Data Analyst [3] Geo-spatial Expert [4] Geologist 
+
+[5] Water Resource Expert [6] Nodal Officer
+
 ]
-.pull-right[
-- [4] Geologist
-- [5] Water Resource Expert
-- [6] Nodal Officer
-]
-]
+
 
 ---
 class: center, top
@@ -566,7 +560,7 @@ styled_table
 
 - The urgency of municipal disaster risk reduction lies on mitigating subsidence and not protecting against sea level rise (SLR).
 
-Problem of ML
+- Problem of Machine Learning
 ]
 
 ---
