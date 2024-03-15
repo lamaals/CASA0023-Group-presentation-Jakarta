@@ -589,7 +589,7 @@ class: text-justify
 Apart from the global problem of Climate Change, the main factor that is affecting the sinking of Jakarta City is its Land Subsidence. So, our plan will address to mitigate that problem via both Predictive & Preventive Measures.
 
 ```{r echo=FALSE, out.width='70%', fig.align='center', fig.cap=''}
-knitr::include_graphics('land_Subsidence.jpg')
+knitr::include_graphics('Land_subsidence.jpg')
 
 ```
 <small>From: Land Subsidence vs Climate Change - Jakarta, Source: [Journal of Water and Climate Change](https://climatescience.ru/uploads/pubs/0/04/04f/04f04a32145609d55ad7d154c9136fef.pdf)</small>
