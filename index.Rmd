@@ -120,6 +120,7 @@ xaringanExtra::use_extra_styles(
 ]
 
 ---
+
 ## Global agendas and goals 1
 ###  The Sendai Framework for Disaster Risk Reduction (2015)
 
@@ -214,10 +215,9 @@ knitr::include_graphics("E_PRINT_15.jpg")
 ]
 ]
 
+
 ---
 ```{r echo=FALSE, fig.width=5, warning=FALSE}
-
-
 ```
 
 ## Causes of Subsidence
@@ -233,11 +233,9 @@ knitr::include_graphics("E_PRINT_15.jpg")
 
 
 .pull-right[
-
-
-
 <img src="jakarta_sinking_animated.gif" width="320" height="240" />
 ]
+
 
 ---
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
@@ -292,16 +290,16 @@ knitr::include_graphics("E_PRINT_15.jpg")
 
 .panel[.panel-name[Social]
 
-* Deterioration in quality of living environment and life health and 
+* Deterioration in quality of living environment and life health 
 
 * Possibility of seawater intrusion to the lowered groundwater table, thus lack of clean water supply
-
 
 * Disruption to daily activities of people.
 ]
 ]
 
 ---
+
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
 ```
 
@@ -318,6 +316,7 @@ knitr::include_graphics("E_PRINT_15.jpg")
 - To ensure clean groundwater supply by avoiding seawater intrusion to groundwater table
 
 ---
+
 ## Criticism to the wall approach
 .pull-left[
 * Sea wall requires frequent maintenance from coastal erosion and destroy the natural landscape of Jakarta Bay (Nunn et al., 2021)
@@ -336,7 +335,9 @@ knitr::include_graphics("E_PRINT_15.jpg")
 * The build of the sea wall can have a terrible impact on the socio-economic aspect of Jakarta city.
 
 ]
+
 ---
+
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
 ```
 
