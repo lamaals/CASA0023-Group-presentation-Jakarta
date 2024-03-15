@@ -557,46 +557,19 @@ styled_table
 
 
 ---
-
-## Risk and Limitations
-
-.pull-left[
-
-### Risk
-
 # Limitations
-
 .pull-left[
-
 ## Scope
-
-
 - ** Integrated Master Plan is inclusive of short-term and long-term solutions with mission and approach detailing spatial alternatives for flood safety, social aspects, land reclamation, business & residential, main ports, mobility & infrastructure, water management, recreation-green space, environmental impact. However, our project only covers land subsidence that might directly provide integrated solutions to other sectors of master plan. **  
-
 - 
-
 ]
-
 .pull-right[
-
-
-### Limitations
-
-- Master Plan: Integrated short-term and long-term solutions with mission and approach detailing spatial alternatives flood safety, social aspects, land reclamation, business & residential, main ports, mobility & infrastructure, water management, recreation-green space, environmental impact.
-
 ## Limitations and Uncertainity
-
-
 - The urgency of municipal disaster risk reduction lies on mitigating subsidence and not protecting against sea level rise (SLR).
-
 - Problem of Machine Learning.
-
 - Problem of mis-trust between public and government effecting participatory and consultative meetings.
-
 - Unexpected Employee turnover.
-
 - Unexpected Data cost at freeware platforms.
-
 ]
 
 ---
