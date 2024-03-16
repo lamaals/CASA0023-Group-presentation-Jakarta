@@ -585,16 +585,16 @@ styled_table
 
 - The urgency of municipal disaster risk reduction lies on mitigating subsidence and not protecting against sea level rise (SLR).
 - Problem of Machine Learning.
->>>>>>> 91f52e9ac0671854fd7317ed2e4ae08cc1caffdd
+
 - Problem of mis-trust between public and government effecting participatory and consultative meetings.
 - Unexpected Employee turnover.
-<<<<<<< HEAD
+
 
 - Unexpected Data cost at freeware platforms 10.
 
 =======
 - Unexpected Data cost at freeware platforms.
->>>>>>> 91f52e9ac0671854fd7317ed2e4ae08cc1caffdd
+
 ]
 
 ---
@@ -620,22 +620,22 @@ class: text-justify
 
 ## References
 
-- FINAL version. Master Plan. National Capital Integrated Coastal Development.
+- 1 FINAL version. Master Plan. National Capital Integrated Coastal Development.
 
-- Integrated Coastal Area Management of the North Coast of Jakarta in the Use of Coastal Space.
+- 2 Integrated Coastal Area Management of the North Coast of Jakarta in the Use of Coastal Space.
 
-<<<<<<< HEAD
+
 - 3Case Study: C40 Good Practice Guides: Jakarta - Coastal Defense Strategy and Flood Mapping
-=======
-- Case Study: C40 Good Practice Guides: Jakarta - Coastal Defence Strategy and Flood Mapping
->>>>>>> 91f52e9ac0671854fd7317ed2e4ae08cc1caffdd
+
+- Case Study: C40 Good Practice Guides: Jakarta - Coastal Defense Strategy and Flood Mapping
+
 Management Regulation of Indonesia’s Coastal and Sea Areas
 
-- COASTAL ZONE SPACE IN INDONESIA: PRELUDE TO CONFLICT?
+- 4COASTAL ZONE SPACE IN INDONESIA: PRELUDE TO CONFLICT?
 
-- https://www.nationalgeographic.com/environment/article/indonesias-giant-capital-city-is-sinking-can-the-governments-plan-save-it
+- 5https://www.nationalgeographic.com/environment/article/indonesias-giant-capital-city-is-sinking-can-the-governments-plan-save-it
 
-- https://courseware.cutm.ac.in/wp-content/uploads/2020/06/Application-of-remote-sensing-in-CZM.pdf
+- 6https://courseware.cutm.ac.in/wp-content/uploads/2020/06/Application-of-remote-sensing-in-CZM.pdf
 
 - 7https://hilmanpr21.github.io/CASA0023_group-presentation/?panelset1=social2#1
 
