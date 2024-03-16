@@ -77,9 +77,11 @@ style_mono_accent(
 
 .panel[.panel-name[Jakarta as capital]
 
-* Jakarta is home to significant financial institutions like the Indonesia Stock Exchange and the Bank of Indonesia, along with serving as the corporate headquarters for numerous Indonesian companies and multinational corporations. This underscores its pivotal role in the country's economy.
+* Jakarta is home to significant financial institutions like the Indonesia Stock Exchange and the Bank of Indonesia.
+
+* It also serves as the corporate headquarters for numerous Indonesian companies and multinational corporations. This underscores its pivotal role in the country's economy.
  
-```{r echo=FALSE, out.width="80%",fig.align='center'}
+```{r echo=FALSE, out.width="70%",fig.align='center'}
 knitr::include_graphics("Jakarta-map.png")
 ```
 
@@ -87,8 +89,10 @@ knitr::include_graphics("Jakarta-map.png")
 
 .panel[.panel-name[Area]
 
+* Jakarta is located in West Indonesia, on the island of Java. 
+
 * The area of Jakarta is 661.5km2 and is divided to five administrative cities of South Jakarta, Central Jakarta, East Jakarta, West Jakarta, and North Jakarta.
-```{r echo=FALSE, out.width="55%", fig.align='center',fig.cap=''}
+```{r echo=FALSE, out.width="45%", fig.align='center',fig.cap=''}
 knitr::include_graphics("Map-of-administration-of-Jakarta-Province.jpg")
 ```
 ]
@@ -97,6 +101,11 @@ knitr::include_graphics("Map-of-administration-of-Jakarta-Province.jpg")
 
 * Total population is 10 million within the city, while the total population of the entire metro area is 30 million. 
 
+* This makes it the second largest megacity in the world. 
+
+```{r echo=FALSE, out.width="75%", fig.align='center',fig.cap=''}
+knitr::include_graphics("jkt_population.jpg")
+```
 ]
 ]
 
@@ -138,15 +147,15 @@ knitr::include_graphics("jakart_submerged.jpeg")
 ]
 .pull-right[
 
-**criticising master plan policy:**
+**Limitations to this policy:**
 
-* Sea wall requires frequent maintenance from coastal erosion and destroy Jakarta Bay natural landscape.
+* Sea wall requires frequent maintenance from coastal erosion and will destroy Jakarta Bay's natural landscape.
 
-* Only provide coastal defense than solving problem root cause (land subsidence).
+* Only provides coastal defense than solving the root cause (land subsidence).
 
-* Create conflict with dynamic coastal nature and block sediment exchange between land and sea.
+* Creates conflict with dynamic coastal nature and blocks sediment exchange between land and sea.
 
-* Disrupt shoreline processes and ruin coastal habitats like intertidal beaches.  
+* Disrupts shoreline processes and ruin coastal habitats like intertidal beaches.  
 
 ]
 ]
@@ -348,6 +357,10 @@ knitr::include_graphics("E_PRINT_15.jpg")
 
 ## Benefits to Addressing Land Subsidence
 
+The NCICD considers a variety of aspects such as flood safety, land reclamation, improving mobility and infrastructure and increasing environmental green space. By producing **enhanced information on land subsidence**, our project can directly improve solutions to all sections of the master plan.
+
+### Specific Benefits include
+
 - Reduced loss of land.
 
 - Reduced damage to infrastructure such as roads and buildings.
@@ -386,7 +399,7 @@ knitr::include_graphics('edited_methodology.png')
 ```
 
 ---
-## Methodology: Identifying Monitoring Areas
+## Methodology: Susceptibility Mapping
 
 1. Split the remotely sensed data on previous land subsidence and influential environmental factors into training (70%) and testing (30%).
 
@@ -394,9 +407,9 @@ knitr::include_graphics('edited_methodology.png')
 
 1. Employ Random Forest algorithm with cross validation to map land subsidence susceptibility.
 
-1. Perform a permutation feature importance analysis to measure the contribution of each feature to the model.
-
 1. Validate the model using the testing data. 
+
+1. Perform a permutation feature importance analysis to measure the contribution of each feature to the model.
 
 1. Map out land subsidence susceptibility that identifies areas of very high, high, moderate, low and very low susceptibility. 
 
