@@ -540,23 +540,13 @@ styled_table
 
 
 ---
+
+## Limitation and Mitigation
+
+
 .pull-left[
-<<<<<<< HEAD
 
-### Scope
-
-<<<<<<< HEAD
-- ** Integrated Master Plan is inclusive of short-term and long-term solutions with mission and approach detailing spatial alternatives for flood safety, social aspects, land reclamation, business & residential, main ports, mobility & infrastructure, water management, recreation-green space, environmental impact. However, our project only covers land subsidence that might directly provide integrated solutions to other sectors of master plan1. **  
-
-=======
-- ** Integrated Master Plan is inclusive of short-term and long-term solutions with mission and approach detailing spatial alternatives for flood safety, social aspects, land reclamation, business & residential, main ports, mobility & infrastructure, water management, recreation-green space, environmental impact. However, our project only covers land subsidence that might directly provide integrated solutions to other sectors of master plan. **  
-
-- 
-]
-.pull-right[
-
-
-## Limitations
+### Limitations
 
 - Problem of mis-trust between public and government effecting participatory and consultative meetings.
 
@@ -565,14 +555,12 @@ styled_table
 - Unexpected Data cost at freeware platforms 10.
 
 - Change of government.
-
-
-
+ 
 ]
 
+.pull-right[
 
-
-Mitigation
+### Mitigation
 
 - Participatory Learning Application of Consultative meeting would create trust and engagement between the people of Jakarta and the government.
 
@@ -582,26 +570,9 @@ Mitigation
 
 - Uniform budget-head transition with changing political parties.
 
-
- 
-
-=======
-## Limitations
-
-
-- The urgency of municipal disaster risk reduction lies on mitigating subsidence and not protecting against sea level rise (SLR)2,4.
-
-- Problem of Machine Learning 10.
-
-- Problem of mistrust between public and government effecting participatory and consultative meetings.
-
-- Unexpected Data cost at freeware platforms 10.
 ]
 
-## Mitigations
 
-
->>>>>>> 21828866c66dcb804c47b904dcb5ba346d2f3b26
 ---
 
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
