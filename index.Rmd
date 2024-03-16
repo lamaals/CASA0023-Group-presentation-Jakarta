@@ -479,13 +479,12 @@ class: center, top
 
 ## Recommended Action Plan
 
-
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
 
 knitr::include_graphics('SlideRA.jpg')
 
 ```
-
+8, 9
 ---
 ## Resource Allocation
 
@@ -494,7 +493,7 @@ knitr::include_graphics('SlideRA.jpg')
 knitr::include_graphics('RA.jpg')
 
 ```
-
+7, 8, 9, 10
 ---
 
 ## Project: Gantt Chart
@@ -509,7 +508,7 @@ knitr::include_graphics('GC.jpg')
 .footnote[
 [1] Team Leader [2] Lead Data Analyst [3] Geo-spatial Expert [4] Geologist 
 
-[5] Water Resource Expert [6] Nodal Officer
+[5] Water Resource Expert [6] Nodal Officer 7, 8, 9
 
 ]
 
@@ -546,7 +545,7 @@ styled_table
 
 ## Scope
 
-- ** Integrated Master Plan is inclusive of short-term and long-term solutions with mission and approach detailing spatial alternatives for flood safety, social aspects, land reclamation, business & residential, main ports, mobility & infrastructure, water management, recreation-green space, environmental impact. However, our project only covers land subsidence that might directly provide integrated solutions to other sectors of master plan. **  
+- ** Integrated Master Plan is inclusive of short-term and long-term solutions with mission and approach detailing spatial alternatives for flood safety, social aspects, land reclamation, business & residential, main ports, mobility & infrastructure, water management, recreation-green space, environmental impact. However, our project only covers land subsidence that might directly provide integrated solutions to other sectors of master plan1. **  
 
 - 
 
@@ -554,17 +553,17 @@ styled_table
 
 .pull-right[
 
-## Limitations and Uncertainity
+## Limitations
 
-- The urgency of municipal disaster risk reduction lies on mitigating subsidence and not protecting against sea level rise (SLR).
+- The urgency of municipal disaster risk reduction lies on mitigating subsidence and not protecting against sea level rise (SLR)2,4.
 
-- Problem of Machine Learning.
+- Problem of Machine Learning 10.
 
 - Problem of mis-trust between public and government effecting participatory and consultative meetings.
 
 - Unexpected Employee turnover.
 
-- Unexpected Data cost at freeware platforms.
+- Unexpected Data cost at freeware platforms 10.
 
 ]
 
@@ -590,7 +589,7 @@ class: center, top
 
 - 2Integrated Coastal Area Management of the North Coast of Jakarta in the Use of Coastal Space.
 
-- 3Case Study: C40 Good Practice Guides: Jakarta - Coastal Defence Strategy and Flood Mapping
+- 3Case Study: C40 Good Practice Guides: Jakarta - Coastal Defense Strategy and Flood Mapping
 Management Regulation of Indonesia’s Coastal and Sea Areas
 
 - 4COASTAL ZONE SPACE IN INDONESIA: PRELUDE TO CONFLICT?
@@ -598,6 +597,14 @@ Management Regulation of Indonesia’s Coastal and Sea Areas
 - 5https://www.nationalgeographic.com/environment/article/indonesias-giant-capital-city-is-sinking-can-the-governments-plan-save-it
 
 - 6https://courseware.cutm.ac.in/wp-content/uploads/2020/06/Application-of-remote-sensing-in-CZM.pdf
+
+- 7https://hilmanpr21.github.io/CASA0023_group-presentation/?panelset1=social2#1
+
+- 8https://www.mdpi.com/2073-4441/14/20/3197
+
+- 9https://www.sciencedirect.com/science/article/pii/S0964569121002581
+
+- 10CASA0023
 
 
 
