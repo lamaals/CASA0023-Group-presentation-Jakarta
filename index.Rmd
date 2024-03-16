@@ -115,22 +115,22 @@ style_mono_accent(
 .panel[.panel-name[NCICD]
 
 .pull-left[ 
-* To protect Jakarta from coastal flooding, the National Capital Integrated Coastal Development (NCID) was developed, with the main plan surrounding the construction of a sea wall which could reach 32km in length `r Citet(myBib,"GiantSeaWall")`. 
+* To protect Jakarta from coastal flooding, the National Capital Integrated Coastal Development (NCID) was developed, with the main plan surrounding the construction of a sea wall which could reach 32km in length `r Citet(myBib,"GiantSeaWall")`.
+
 ]
 
 .pull-right[
 
 #### Criticism to master plan policy
 
-* Sea wall requires frequent maintenance from coastal erosion and destroy the natural landscape of Jakarta Bay (Nunn et al., 2021)
+* Sea wall requires frequent maintenance from coastal erosion and destroy the natural landscape of Jakarta Bay (Criticism 1)
 
 * It can only provide coastal defense but it’s unable to solve the root cause of the problem which is land subsidence.
 
 * Sea wall may create conflict with the dynamic coastal nature and block the sediment exchange between land and sea.
 
-
-* Can disrupt natural shoreline  processes and ruin coastal habitats such as mangrove and intertidal beaches. ]
-
+* Can disrupt natural shoreline  processes and ruin coastal habitats such as mangrove and intertidal beaches. 
+]
 ]
 
 .panel[.panel-name[The Main Cause]
@@ -140,7 +140,6 @@ style_mono_accent(
 * Currently, detailed understanding of the characteristics and mechanisms of land subsidence in Jakarta, both spatially and temporally, remains incomplete. 
 
 * Accurately estimating and modelling the contribution of each causative factor to observed land subsidence in specific areas is still necessary.
-
 
 ]
 ]
@@ -152,9 +151,9 @@ style_mono_accent(
 ## Causes of Subsidence
 
 .pull-left[
-* Physical factors: earthquakes. Indonesia is located on destructive plate boundaries where earthquakes happen frequently (Bott et al., 2021).
+* Physical factors: earthquakes. Indonesia is located on destructive plate boundaries where earthquakes happen frequently (Causes of LS 1).
 
-* Human/ social factors: groundwater extraction, rapid urban development, improper agricultural practices (Adibin et al., 2011)
+* Human/ social factors: groundwater extraction, rapid urban development, improper agricultural practices (Causes of LS 2). 
 
 * Natural consolidation of alluvium soil, load of infrastructures and constructions, and tectonic activities 
 
@@ -244,7 +243,7 @@ knitr::include_graphics("SendaiFramrwork.jpeg")
 
 * To reduce vulnerability of coastal regions by enhancing resilience capacity e.g., preparedness to disasters
 
-* To strengthen local governance towards disaster risk management in accordance with this global framework -- a top down approach
+* To strengthen local governance towards disaster risk management in accordance with this global framework
 
 * Recognises the state has the primary role for DRR
 
@@ -321,6 +320,7 @@ knitr::include_graphics("E_PRINT_15.jpg")
 ]
 ]
 ]
+
 ---
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
 ```
@@ -547,45 +547,37 @@ styled_table
 
 ---
 
-## Limitations
+## Limitation and Mitigation
+
 
 .pull-left[
 
-### Scope
-
-<<<<<<< HEAD
-- ** Integrated Master Plan is inclusive of short-term and long-term solutions with mission and approach detailing spatial alternatives for flood safety, social aspects, land reclamation, business & residential, main ports, mobility & infrastructure, water management, recreation-green space, environmental impact. However, our project only covers land subsidence that might directly provide integrated solutions to other sectors of master plan1. **  
-
-=======
-- ** Integrated Master Plan is inclusive of short-term and long-term solutions with mission and approach detailing spatial alternatives for flood safety, social aspects, land reclamation, business & residential, main ports, mobility & infrastructure, water management, recreation-green space, environmental impact. However, our project only covers land subsidence that might directly provide integrated solutions to other sectors of master plan. **  
->>>>>>> 91f52e9ac0671854fd7317ed2e4ae08cc1caffdd
-- 
-]
-.pull-right[
-
-<<<<<<< HEAD
-## Limitations
-
-- The urgency of municipal disaster risk reduction lies on mitigating subsidence and not protecting against sea level rise (SLR)2,4.
-
-- Problem of Machine Learning 10.
-
-=======
-### Limitations and Uncertainity
-
-- The urgency of municipal disaster risk reduction lies on mitigating subsidence and not protecting against sea level rise (SLR).
-- Problem of Machine Learning.
+### Limitations
 
 - Problem of mis-trust between public and government effecting participatory and consultative meetings.
-- Unexpected Employee turnover.
 
+- Unexpected Employee turnover.
 
 - Unexpected Data cost at freeware platforms 10.
 
-=======
-- Unexpected Data cost at freeware platforms.
+- Change of government.
+ 
+]
+
+.pull-right[
+
+### Mitigation
+
+- Participatory Learning Application of Consultative meeting would create trust and engagement between the people of Jakarta and the government.
+
+- Maintaining the data infrastructure of our project for smooth transition.
+
+- Alternative data sets from other satellite imagery are available with increased processing, validation etc.
+
+- Uniform budget-head transition with changing political parties.
 
 ]
+
 
 ---
 
@@ -593,16 +585,28 @@ styled_table
 ```
 class: text-justify
 
-## Reflection
+## Summary
 
-Apart from the global problem of Climate Change, the main factor that is affecting the sinking of Jakarta City is its Land Subsidence. So, our plan will address to mitigate that problem via both Predictive & Preventive Measures.
+.pull-left[
+- Jakarta is sinking and the NCICD does little to address the main cause which is land subsidence. 
 
-```{r echo=FALSE, out.width='70%', fig.align='center', fig.cap=''}
-knitr::include_graphics('Land_subsidence.jpg')
+- This project aims to improve monitoring and decision-making by providing up-to-date land subsidence susceptibility and risk maps.
+
+- This will allow for:
+  - Reinforcement of the NCICD plan.
+  - Further evidence based and data driven policy and action.
+  - Prevent future economic losses.
+  - Mitigate fluvial, pluvial and coastal flood risk.
+]
+
+.pull-right[
+```{r echo=FALSE, out.width='100%', fig.align='center', fig.cap=''}
+knitr::include_graphics('Land_sub.png')
 
 ```
 <small>From: Land Subsidence vs Climate Change - Jakarta, Source: [Journal of Water and Climate Change](https://climatescience.ru/uploads/pubs/0/04/04f/04f04a32145609d55ad7d154c9136fef.pdf)</small>
 
+]
 ---
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
 ```
@@ -635,5 +639,11 @@ Management Regulation of Indonesia’s Coastal and Sea Areas
 
 - 10CASA0023
 
+- Criticism 1 Nunn et al (2021) Seawalls as maladaptations along island coasts https://www.sciencedirect.com/science/article/abs/pii/S0964569121000399?casa_token=3ErEoQPI2QsAAAAA:0aQskpbCflgGu0qxf-_6ZfVAKFWVBhv3GJkpZiouQvEK2qrsIqf8Hl_6dQhb8cf9CETywHDyNAv 
 
+- Causes of LS 1 Bott et al., 2021 Land subsidence in Jakarta and Semarang Bay – The relationship between physical processes, risk perception, and household adaptation https://www.sciencedirect.com/science/article/pii/S0964569121002581 
+
+- Causes of LS 2 Adibin et al., 2011 Land subsidence of Jakarta (Indonesia) and its
+relation with urban development, Nat. Hazards, 59, 1753–1771,
+2011. https://www.sciencedirect.com/science/article/pii/S0964569121002581 
 
