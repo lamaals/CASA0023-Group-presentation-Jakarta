@@ -96,7 +96,7 @@ style_mono_accent(
 
   
 ---
-```{r xaringan-all, echo=FALSE, warning=FALSE, out.width="80%"}
+```{r xaringan-all, echo=FALSE, warning=FALSE, out.width="100%"}
 ```
 
 ## Highlighting the problem 
@@ -115,21 +115,24 @@ style_mono_accent(
 .panel[.panel-name[NCICD]
 
 .pull-left[ 
+
 * To protect Jakarta from coastal flooding, the National Capital Integrated Coastal Development (NCID) was developed, with the main plan surrounding the construction of a sea wall which could reach 32km in length `r Citet(myBib,"GiantSeaWall")`.
 
-]
+  <img src="sea_wall.jpg" width="320" height="240" />
 
+]
 .pull-right[
 
-#### Criticism to master plan policy
+**criticising master plan policy:**
 
-* Sea wall requires frequent maintenance from coastal erosion and destroy the natural landscape of Jakarta Bay (Criticism 1)
+* Sea wall requires frequent maintenance from coastal erosion and destroy Jakarta Bay natural landscape.
 
-* It can only provide coastal defense but it’s unable to solve the root cause of the problem which is land subsidence.
+* Only provide coastal defense than solving problem root cause (land subsidence).
 
-* Sea wall may create conflict with the dynamic coastal nature and block the sediment exchange between land and sea.
+* Create conflict with dynamic coastal nature and block sediment exchange between land and sea.
 
-* Can disrupt natural shoreline  processes and ruin coastal habitats such as mangrove and intertidal beaches. 
+* Disrupt shoreline processes and ruin coastal habitats like intertidal beaches.  
+
 ]
 ]
 
