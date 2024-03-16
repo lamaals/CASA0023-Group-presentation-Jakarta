@@ -79,7 +79,7 @@ style_mono_accent(
 
 * Jakarta is home to significant financial institutions like the Indonesia Stock Exchange and the Bank of Indonesia, along with serving as the corporate headquarters for numerous Indonesian companies and multinational corporations. This underscores its pivotal role in the country's economy.
  
-```{r echo=FALSE, out.width="80%", fig.align='center'}
+```{r echo=FALSE, out.width="80%",fig.align='center'}
 knitr::include_graphics("Jakarta-map.png")
 ```
 
@@ -88,7 +88,9 @@ knitr::include_graphics("Jakarta-map.png")
 .panel[.panel-name[Area]
 
 * The area of Jakarta is 661.5km2 and is divided to five administrative cities of South Jakarta, Central Jakarta, East Jakarta, West Jakarta, and North Jakarta.
-
+```{r echo=FALSE, out.width="55%", fig.align='center',fig.cap=''}
+knitr::include_graphics("Map-of-administration-of-Jakarta-Province.jpg")
+```
 ]
 
 .panel[.panel-name[Population]
