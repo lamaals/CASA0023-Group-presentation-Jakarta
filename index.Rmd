@@ -78,6 +78,10 @@ style_mono_accent(
 .panel[.panel-name[Jakarta as capital]
 
 * Jakarta is home to significant financial institutions like the Indonesia Stock Exchange and the Bank of Indonesia, along with serving as the corporate headquarters for numerous Indonesian companies and multinational corporations. This underscores its pivotal role in the country's economy.
+ 
+```{r echo=FALSE, out.width="80%", fig.align='center'}
+knitr::include_graphics("Jakarta-map.png")
+```
 
 ]
 
@@ -294,7 +298,7 @@ knitr::include_graphics("E_PRINT_11.jpg")
 .panel[.panel-name[SDG 13]
 .pull-left[
 
-```{r echo=FALSE, out.width="80%"}
+```{r echo=FALSE, out.width="80%", }
 knitr::include_graphics("E_PRINT_13.jpg")
 ```
 ]
@@ -652,3 +656,5 @@ class: text-justify
 
 - <span style="font-size: 12pt;"> 14). [Causes of LS 2 Adibin et al., 2011 Land subsidence of Jakarta (Indonesia) and its relation with urban development, Nat. Hazards, 59, 1753–1771,2011](https://www.sciencedirect.com/science/article/pii/S0964569121002581) </span>
 
+this is for maddie to do refrenceing 
+Criticizing sea wall approch are all taken from this PDF (GIANT SEA WALL CONSTRUCTION: IS IT THE RIGHT SOLUTION TO OVERCOME JAKARTA'S SINKING? Research Project for Environmental Management)
