@@ -114,8 +114,8 @@ knitr::include_graphics("Map-of-administration-of-Jakarta-Province.jpg")
 
 .pull-left[ 
 
-```{r echo=FALSE, fig.align='center',fig.cap=''}
-knitr::include_graphics("jakart_submerged.jpg")
+```{r echo=FALSE,fig.cap=''}
+knitr::include_graphics("jakart_submerged.jpeg")
 ```
 
 ]
