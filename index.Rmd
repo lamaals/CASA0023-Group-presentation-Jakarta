@@ -96,7 +96,7 @@ style_mono_accent(
 
   
 ---
-```{r xaringan-all, echo=FALSE, warning=FALSE}
+```{r xaringan-all, echo=FALSE, warning=FALSE, out.width="80%"}
 ```
 
 ## Highlighting the problem 
@@ -114,9 +114,13 @@ style_mono_accent(
 
 .panel[.panel-name[NCICD]
 
-* To protect Jakarta from coastal flooding, the National Capital Integrated Coastal Development (NCID) was developed, with the main plan surrounding the construction of a sea wall which could reach 32km in length `r Citet(myBib,"GiantSeaWall")`.
+.pull-left[ 
+* To protect Jakarta from coastal flooding, the National Capital Integrated Coastal Development (NCID) was developed, with the main plan surrounding the construction of a sea wall which could reach 32km in length `r Citet(myBib,"GiantSeaWall")`. 
+]
 
-## Criticism to master plan policy
+.pull-right[
+
+#### Criticism to master plan policy
 
 * Sea wall requires frequent maintenance from coastal erosion and destroy the natural landscape of Jakarta Bay (Nunn et al., 2021)
 
@@ -125,7 +129,7 @@ style_mono_accent(
 * Sea wall may create conflict with the dynamic coastal nature and block the sediment exchange between land and sea.
 
 
-* Can disrupt natural shoreline  processes and ruin coastal habitats such as mangrove and intertidal beaches.
+* Can disrupt natural shoreline  processes and ruin coastal habitats such as mangrove and intertidal beaches. ]
 
 ]
 
@@ -136,6 +140,7 @@ style_mono_accent(
 * Currently, detailed understanding of the characteristics and mechanisms of land subsidence in Jakarta, both spatially and temporally, remains incomplete. 
 
 * Accurately estimating and modelling the contribution of each causative factor to observed land subsidence in specific areas is still necessary.
+
 
 ]
 ]
