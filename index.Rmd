@@ -606,38 +606,40 @@ knitr::include_graphics('Land_sub.png')
 ```
 class: text-justify
 
-## References
+## References 1
 
-- 1 FINAL version. Master Plan. National Capital Integrated Coastal Development.
+- <span style="font-size: 12pt;"> 1). Final version - Master Plan. National Capital Integrated Coastal Development.</span>
 
-- 2 Integrated Coastal Area Management of the North Coast of Jakarta in the Use of Coastal Space.
+- <span style="font-size: 12pt;"> 2). Integrated Coastal Area Management of the North Coast of Jakarta in the Use of Coastal Space.</span>
 
+- <span style="font-size: 12pt;"> 3). Case Study: C40 Good Practice Guides: Jakarta - Coastal Defense Strategy and Flood Mapping</span>
 
-- 3Case Study: C40 Good Practice Guides: Jakarta - Coastal Defense Strategy and Flood Mapping
+- <span style="font-size: 12pt;"> 4). Case Study: C40 Good Practice Guides: Jakarta - Coastal Defense Strategy and Flood Mapping Management Regulation of Indonesia’s Coastal and Sea Areas</span>
 
-- Case Study: C40 Good Practice Guides: Jakarta - Coastal Defense Strategy and Flood Mapping
+- <span style="font-size: 12pt;"> 5). COASTAL ZONE SPACE IN INDONESIA: PRELUDE TO CONFLICT?</span>
 
-Management Regulation of Indonesia’s Coastal and Sea Areas
+- <span style="font-size: 12pt;"> 6). [Article: Indonesia's giant capital city is sinking can the governments plan save it](https://www.nationalgeographic.com/environment/article/indonesias-giant-capital-city-is-sinking-can-the-governments-plan-save-it)</span>
 
-- 4COASTAL ZONE SPACE IN INDONESIA: PRELUDE TO CONFLICT?
+- <span style="font-size: 12pt;"> 7).[Courseware CUTM](https://courseware.cutm.ac.in/wp-content/uploads/2020/06/Application-of-remote-sensing-in-CZM.pdf)</span>
 
-- 5https://www.nationalgeographic.com/environment/article/indonesias-giant-capital-city-is-sinking-can-the-governments-plan-save-it
+- <span style="font-size: 12pt;"> 8). https://hilmanpr21.github.io/CASA0023_group-presentation/?panelset1=social2#1 </span>
 
-- 6https://courseware.cutm.ac.in/wp-content/uploads/2020/06/Application-of-remote-sensing-in-CZM.pdf
+- <span style="font-size: 12pt;"> 9). https://www.mdpi.com/2073-4441/14/20/3197 </span>
 
-- 7https://hilmanpr21.github.io/CASA0023_group-presentation/?panelset1=social2#1
+- <span style="font-size: 12pt;"> 10). https://www.sciencedirect.com/science/article/pii/S0964569121002581 </span>
 
-- 8https://www.mdpi.com/2073-4441/14/20/3197
+---
+```{r xaringan-all, echo=FALSE, warning=FALSE}
+```
+class: text-justify
 
-- 9https://www.sciencedirect.com/science/article/pii/S0964569121002581
+## References 2
 
-- 10CASA0023
+- <span style="font-size: 12pt;"> 11). [CASA0023](https://andrewmaclachlan.github.io/CASA0023/) </span>
 
-- Criticism 1 Nunn et al (2021) Seawalls as maladaptations along island coasts https://www.sciencedirect.com/science/article/abs/pii/S0964569121000399?casa_token=3ErEoQPI2QsAAAAA:0aQskpbCflgGu0qxf-_6ZfVAKFWVBhv3GJkpZiouQvEK2qrsIqf8Hl_6dQhb8cf9CETywHDyNAv 
+- <span style="font-size: 12pt;"> 12). [Criticism 1 Nunn et al (2021) Seawalls as maladaptations along island coasts](https://www.sciencedirect.com/science/article/abs/pii/S0964569121000399?casa_token=3ErEoQPI2QsAAAAA:0aQskpbCflgGu0qxf-_6ZfVAKFWVBhv3GJkpZiouQvEK2qrsIqf8Hl_6dQhb8cf9CETywHDyNAv) </span>
 
-- Causes of LS 1 Bott et al., 2021 Land subsidence in Jakarta and Semarang Bay – The relationship between physical processes, risk perception, and household adaptation https://www.sciencedirect.com/science/article/pii/S0964569121002581 
+- <span style="font-size: 12pt;"> 13). [Causes of LS 1 Bott et al., 2021 Land subsidence in Jakarta and Semarang Bay – The relationship between physical processes, risk perception, and household adaptation](https://www.sciencedirect.com/science/article/pii/S0964569121002581) </span>
 
-- Causes of LS 2 Adibin et al., 2011 Land subsidence of Jakarta (Indonesia) and its
-relation with urban development, Nat. Hazards, 59, 1753–1771,
-2011. https://www.sciencedirect.com/science/article/pii/S0964569121002581 
+- <span style="font-size: 12pt;"> 14). [Causes of LS 2 Adibin et al., 2011 Land subsidence of Jakarta (Indonesia) and its relation with urban development, Nat. Hazards, 59, 1753–1771,2011](https://www.sciencedirect.com/science/article/pii/S0964569121002581) </span>
 
