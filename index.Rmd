@@ -579,9 +579,20 @@ styled_table
 ```
 class: text-justify
 
-## Summary (?)
+## Summary
 
-Apart from the global problem of Climate Change, the main factor that is affecting the sinking of Jakarta City is its Land Subsidence. So, our plan will address to mitigate that problem via both Predictive & Preventive Measures.
+- Jakarta is sinking and the NCICD does little to address the main cause which is land subsidence. 
+
+- This project aims to improve monitoring and decision-making by providing up-to-date land subsidence susceptibility and risk maps.
+
+- This will allow for:
+  - Reinforcement of the NCICD plan.
+  - Further evidence based and data driven policy and action.
+  - Prevent future economic losses.
+  - Mitigate fluvial, pluvial and coastal flood risk.
+
+
+
 
 ```{r echo=FALSE, out.width='70%', fig.align='center', fig.cap=''}
 knitr::include_graphics('Land_subsidence.jpg')
