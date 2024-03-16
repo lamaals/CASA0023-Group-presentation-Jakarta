@@ -7,6 +7,7 @@ institute: "University College London"
 date: "2024/03/19"
 output:
   xaringan::moon_reader:
+    css: xaringan-themer.css
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -35,6 +36,7 @@ library(xaringan)
 library(xaringanExtra)
 library(knitr)
 library(knitcitations)
+library(xaringanthemer)
 
 hook_source <- knitr::knit_hooks$get('source')
 knitr::knit_hooks$set(source = function(x, options) {
@@ -60,6 +62,15 @@ xaringanExtra::use_extra_styles(
 
 ```
 
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+style_mono_accent(
+  base_color = "#399cbd",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+
+```
 # The significance of Jakarta
 
 .panelset.sideways[
@@ -358,8 +369,8 @@ knitr::include_graphics("E_PRINT_15.jpg")
 ---
 ## Methodology: Workflow
 
-```{r echo=FALSE, out.width='95%', fig.align='center', fig.cap=''}
-knitr::include_graphics('methodology_workflow.png')
+```{r echo=FALSE, out.width='100%', fig.align='center', fig.cap=''}
+knitr::include_graphics('edited_methodology.png')
 
 ```
 
@@ -378,7 +389,13 @@ knitr::include_graphics('methodology_workflow.png')
 
 1. Map out land subsidence susceptibility that identifies areas of very high, high, moderate, low and very low susceptibility. 
 
+![](risk_scale.png)
+
 ---
+```{r echo=FALSE, out.width='90%', fig.align='bottom', fig.cap=''}
+
+```
+
 ## Methodology: Risk Mapping 
 
 1. Preprocess land subsidence and social data to create raster maps.
@@ -391,6 +408,7 @@ knitr::include_graphics('methodology_workflow.png')
 
 1. Using risk index, produce a risk map showing areas at very high risk, high risk, moderate risk, low risk and very low risk.
 
+![](multicriteria_analysis.png)
 ---
 ## Data
 
@@ -454,7 +472,7 @@ knitr::include_graphics('eg_susceptibility.png')
 
 ```
 
-From: `r Citet(myBib,"gharechaeeLandSubsidenceSusceptibility2023")`
+Source: `r Citet(myBib,"gharechaeeLandSubsidenceSusceptibility2023")`
 
 ]
 
@@ -467,7 +485,7 @@ knitr::include_graphics('eg_risk.png')
 
 ```
 
-From: `r Citet(myBib,"bhattaraiRiskAssessmentLand2017")`
+Source: `r Citet(myBib,"bhattaraiRiskAssessmentLand2017")`
 ]
 
 
@@ -475,7 +493,7 @@ From: `r Citet(myBib,"bhattaraiRiskAssessmentLand2017")`
 ---
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
 ```
-class: center, top
+class: top
 
 ## Recommended Action Plan
 
@@ -514,7 +532,7 @@ knitr::include_graphics('GC.jpg')
 
 
 ---
-class: center, top
+class: top
 ### Budget Breakdown
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
@@ -539,64 +557,85 @@ styled_table
 
 ---
 
-# Limitations
+## Limitations
 
 .pull-left[
 
-## Scope
+### Scope
 
+<<<<<<< HEAD
 - ** Integrated Master Plan is inclusive of short-term and long-term solutions with mission and approach detailing spatial alternatives for flood safety, social aspects, land reclamation, business & residential, main ports, mobility & infrastructure, water management, recreation-green space, environmental impact. However, our project only covers land subsidence that might directly provide integrated solutions to other sectors of master plan1. **  
 
+=======
+- ** Integrated Master Plan is inclusive of short-term and long-term solutions with mission and approach detailing spatial alternatives for flood safety, social aspects, land reclamation, business & residential, main ports, mobility & infrastructure, water management, recreation-green space, environmental impact. However, our project only covers land subsidence that might directly provide integrated solutions to other sectors of master plan. **  
+>>>>>>> 91f52e9ac0671854fd7317ed2e4ae08cc1caffdd
 - 
-
 ]
-
 .pull-right[
 
+<<<<<<< HEAD
 ## Limitations
 
 - The urgency of municipal disaster risk reduction lies on mitigating subsidence and not protecting against sea level rise (SLR)2,4.
 
 - Problem of Machine Learning 10.
 
-- Problem of mis-trust between public and government effecting participatory and consultative meetings.
+=======
+### Limitations and Uncertainity
 
+- The urgency of municipal disaster risk reduction lies on mitigating subsidence and not protecting against sea level rise (SLR).
+- Problem of Machine Learning.
+>>>>>>> 91f52e9ac0671854fd7317ed2e4ae08cc1caffdd
+- Problem of mis-trust between public and government effecting participatory and consultative meetings.
 - Unexpected Employee turnover.
+<<<<<<< HEAD
 
 - Unexpected Data cost at freeware platforms 10.
 
+=======
+- Unexpected Data cost at freeware platforms.
+>>>>>>> 91f52e9ac0671854fd7317ed2e4ae08cc1caffdd
 ]
 
 ---
 
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
 ```
-class: center, top
+class: text-justify
 
-## Recommendations
+## Reflection
 
+Apart from the global problem of Climate Change, the main factor that is affecting the sinking of Jakarta City is its Land Subsidence. So, our plan will address to mitigate that problem via both Predictive & Preventive Measures.
 
+```{r echo=FALSE, out.width='70%', fig.align='center', fig.cap=''}
+knitr::include_graphics('Land_subsidence.jpg')
 
+```
+<small>From: Land Subsidence vs Climate Change - Jakarta, Source: [Journal of Water and Climate Change](https://climatescience.ru/uploads/pubs/0/04/04f/04f04a32145609d55ad7d154c9136fef.pdf)</small>
 
 ---
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
 ```
-class: center, top
+class: text-justify
 
 ## References
 
-- 1FINAL version. Master Plan. National Capital Integrated Coastal Development.
+- FINAL version. Master Plan. National Capital Integrated Coastal Development.
 
-- 2Integrated Coastal Area Management of the North Coast of Jakarta in the Use of Coastal Space.
+- Integrated Coastal Area Management of the North Coast of Jakarta in the Use of Coastal Space.
 
+<<<<<<< HEAD
 - 3Case Study: C40 Good Practice Guides: Jakarta - Coastal Defense Strategy and Flood Mapping
+=======
+- Case Study: C40 Good Practice Guides: Jakarta - Coastal Defence Strategy and Flood Mapping
+>>>>>>> 91f52e9ac0671854fd7317ed2e4ae08cc1caffdd
 Management Regulation of Indonesia’s Coastal and Sea Areas
 
-- 4COASTAL ZONE SPACE IN INDONESIA: PRELUDE TO CONFLICT?
+- COASTAL ZONE SPACE IN INDONESIA: PRELUDE TO CONFLICT?
 
-- 5https://www.nationalgeographic.com/environment/article/indonesias-giant-capital-city-is-sinking-can-the-governments-plan-save-it
+- https://www.nationalgeographic.com/environment/article/indonesias-giant-capital-city-is-sinking-can-the-governments-plan-save-it
 
-- 6https://courseware.cutm.ac.in/wp-content/uploads/2020/06/Application-of-remote-sensing-in-CZM.pdf
+- https://courseware.cutm.ac.in/wp-content/uploads/2020/06/Application-of-remote-sensing-in-CZM.pdf
 
 - 7https://hilmanpr21.github.io/CASA0023_group-presentation/?panelset1=social2#1
 
