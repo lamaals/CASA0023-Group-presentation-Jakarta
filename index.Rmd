@@ -112,9 +112,18 @@ knitr::include_graphics("Map-of-administration-of-Jakarta-Province.jpg")
 
 .panel[.panel-name[The Sinking Capital]
 
+.pull-left[ 
+
+```{r echo=FALSE, fig.align='center',fig.cap=''}
+knitr::include_graphics("jakart_submerged.jpg")
+```
+
+]
+
+.pull-right[ 
 * Jakarta, the capital of Indonesia, has been at risk of becoming the first megacity to completely sink. This is attributed to factors such as rising sea levels, land subsidence, construction on soft sediments, and natural sediment compaction. 
 
-* The northern part of Jakarta currently sits approximately 2.5 meters below sea level, with estimates indicating that by 2050, 40% of the area will be sunk. Each year, Jakarta experiences between 1 to 10 sinking incidents. 
+* The northern part of Jakarta currently sits approximately 2.5 meters below sea level, with estimates indicating that by 2050, 40% of the area will be sunk. Each year, Jakarta experiences between 1 to 10 sinking incidents. ]
 
 ]
 
@@ -150,6 +159,9 @@ knitr::include_graphics("Map-of-administration-of-Jakarta-Province.jpg")
 
 * Accurately estimating and modelling the contribution of each causative factor to observed land subsidence in specific areas is still necessary.
 
+```{r echo=FALSE, out.width="70%", fig.align='center',fig.cap=''}
+knitr::include_graphics("Main_cause_Final.jpg")
+```
 ]
 ]
 
