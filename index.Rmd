@@ -101,6 +101,7 @@ style_mono_accent(
 
 ## Highlighting the problem 
 
+
 .panelset[
 
 .panel[.panel-name[The Sinking Capital]
@@ -115,7 +116,15 @@ style_mono_accent(
 
 * To protect Jakarta from coastal flooding, the National Capital Integrated Coastal Development (NCID) was developed, with the main plan surrounding the construction of a sea wall which could reach 32km in length `r Citet(myBib,"GiantSeaWall")`.
 
+* **Criticism to master plan policy**
 
+    * Sea wall requires frequent maintenance from coastal erosion and destroy the natural landscape of Jakarta Bay (Criticism 1)
+
+    * It can only provide coastal defense but it’s unable to solve the root cause of the problem which is land subsidence.
+
+    * Sea wall may create conflict with the dynamic coastal nature and block the sediment exchange between land and sea.
+
+    * Can disrupt natural shoreline  processes and ruin coastal habitats such as mangrove and intertidal beaches.
 
 ]
 
@@ -131,112 +140,15 @@ style_mono_accent(
 ]
 
 ---
-
-## Global agendas and goals 1
-###  The Sendai Framework for Disaster Risk Reduction (2015)
-
-.pull-left[
-```{r echo=FALSE, out.width="80%"}
-knitr::include_graphics("SendaiFramrwork.jpeg")
-```
-]
-.pull-right[
-
-
-* To understand disaster risk
-
-* To reduce vulnerability of coastal regions by enhancing resilience capacity e.g., preparedness to disasters
-
-* To strengthen local governance towards disaster risk management in accordance with this global framework -- a top down approach
-
-* Recognises the state has the primary role for DRR
-
-* Stakeholders should share the responsibility with the state
-
-
-]
----
-## Global agendas and goals 2
-### Sustainable Development Goals (SDGs)
-.panelset[
-.panel[.panel-name[SDG 6]
-
-.pull-left[
-
-```{r echo=FALSE, out.width="80%"}
-knitr::include_graphics("E_PRINT_06.jpg")
-```
-]
-.pull-right[
-**Target 6.4**
-
-* By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity
-]
-
-
-]
-
-.panel[.panel-name[SDG 11]
-.pull-left[
-
-```{r echo=FALSE, out.width="80%"}
-knitr::include_graphics("E_PRINT_11.jpg")
-```
-]
-.pull-right[
-**Target 11.3**
-
-* By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries
-]
-
-
-]
-
-.panel[.panel-name[SDG 13]
-.pull-left[
-
-```{r echo=FALSE, out.width="80%"}
-knitr::include_graphics("E_PRINT_13.jpg")
-```
-]
-.pull-right[
-**Target 13.1**
-
-* Strengthen resilience and adaptive capacity to climate-related hazards and natural disasters in all countries
-
-**Target 13.2**
-* Integrate climate change measures into national policies, strategies and planning
-
-]
-
-]
-
-
-.panel[.panel-name[SDG 15]
-.pull-left[
-```{r echo=FALSE, out.width="80%"}
-knitr::include_graphics("E_PRINT_15.jpg")
-```
-]
-.pull-right[
-**Target 15.3**
-
-* By 2030, combat desertification, restore degraded land and soil, including land affected by desertification, drought and floods, and strive to achieve a land degradation-neutral world
-]
-]
-]
-
-
----
 ```{r echo=FALSE, fig.width=5, warning=FALSE}
 ```
 
 ## Causes of Subsidence
 
 .pull-left[
-* Physical factors: earthquakes. Indonesia is located on destructive plate boundaries where earthquakes happen frequently (Bott et al., 2021).
+* Physical factors: earthquakes. Indonesia is located on destructive plate boundaries where earthquakes happen frequently (Causes of LS 1).
 
-* Human/ social factors: groundwater extraction, rapid urban development, improper agricultural practices (Adibin et al., 2011)
+* Human/ social factors: groundwater extraction, rapid urban development, improper agricultural practices (Causes of LS 2). 
 
 * Natural consolidation of alluvium soil, load of infrastructures and constructions, and tectonic activities 
 
@@ -311,6 +223,99 @@ knitr::include_graphics("E_PRINT_15.jpg")
 
 ---
 
+## Global agendas and goals 1
+###  The Sendai Framework for Disaster Risk Reduction (2015)
+
+.pull-left[
+```{r echo=FALSE, out.width="80%"}
+knitr::include_graphics("SendaiFramrwork.jpeg")
+```
+]
+.pull-right[
+
+
+* To understand disaster risk
+
+* To reduce vulnerability of coastal regions by enhancing resilience capacity e.g., preparedness to disasters
+
+* To strengthen local governance towards disaster risk management in accordance with this global framework
+
+* Recognises the state has the primary role for DRR
+
+* Stakeholders should share the responsibility with the state
+
+
+]
+---
+## Global agendas and goals 2
+### Sustainable Development Goals (SDGs)
+.panelset[
+.panel[.panel-name[SDG 6]
+
+.pull-left[
+
+```{r echo=FALSE, out.width="80%"}
+knitr::include_graphics("E_PRINT_06.jpg")
+```
+]
+.pull-right[
+**Target 6.4**
+
+* By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity
+]
+
+
+]
+
+.panel[.panel-name[SDG 11]
+.pull-left[
+
+```{r echo=FALSE, out.width="80%"}
+knitr::include_graphics("E_PRINT_11.jpg")
+```
+]
+.pull-right[
+**Target 11.3**
+
+* By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries
+]
+
+
+]
+
+.panel[.panel-name[SDG 13]
+.pull-left[
+
+```{r echo=FALSE, out.width="80%"}
+knitr::include_graphics("E_PRINT_13.jpg")
+```
+]
+.pull-right[
+**Target 13.1**
+
+* Strengthen resilience and adaptive capacity to climate-related hazards and natural disasters in all countries
+
+**Target 13.2**
+* Integrate climate change measures into national policies, strategies and planning
+
+]
+
+]
+
+.panel[.panel-name[SDG 15]
+.pull-left[
+```{r echo=FALSE, out.width="80%"}
+knitr::include_graphics("E_PRINT_15.jpg")
+```
+]
+.pull-right[
+**Target 15.3**
+
+* By 2030, combat desertification, restore degraded land and soil, including land affected by desertification, drought and floods, and strive to achieve a land degradation-neutral world
+]
+]
+]
+---
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
 ```
 
@@ -325,27 +330,6 @@ knitr::include_graphics("E_PRINT_15.jpg")
 - Protection of businesses and industry such as coastal tourism. 
 
 - To ensure clean groundwater supply by avoiding seawater intrusion to groundwater table
-
----
-
-## Criticism to the wall approach
-.pull-left[
-* Sea wall requires frequent maintenance from coastal erosion and destroy the natural landscape of Jakarta Bay (Nunn et al., 2021)
-
-* It can only provide coastal defense but it’s unable to solve the root cause of the problem which is land subsidence.
-
-* High cost of construction and maintenance. 
-
-* Sea wall may create conflict with the dynamic coastal nature and block the sediment exchange between land and sea.
-]
-
-.pull-right[
-
-* Can disrupt natural shoreline  processes and ruin coastal habitats such as mangrove and intertidal beaches.
-
-* The build of the sea wall can have a terrible impact on the socio-economic aspect of Jakarta city.
-
-]
 
 ---
 
@@ -556,10 +540,8 @@ styled_table
 
 
 ---
-
-## Limitations
-
 .pull-left[
+<<<<<<< HEAD
 
 ### Scope
 
@@ -603,13 +585,30 @@ Mitigation
 
  
 
+=======
+## Limitations
+
+
+- The urgency of municipal disaster risk reduction lies on mitigating subsidence and not protecting against sea level rise (SLR)2,4.
+
+- Problem of Machine Learning 10.
+
+- Problem of mistrust between public and government effecting participatory and consultative meetings.
+
+- Unexpected Data cost at freeware platforms 10.
+]
+
+## Mitigations
+
+
+>>>>>>> 21828866c66dcb804c47b904dcb5ba346d2f3b26
 ---
 
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
 ```
 class: text-justify
 
-## Reflection
+## Summary (?)
 
 Apart from the global problem of Climate Change, the main factor that is affecting the sinking of Jakarta City is its Land Subsidence. So, our plan will address to mitigate that problem via both Predictive & Preventive Measures.
 
@@ -651,5 +650,11 @@ Management Regulation of Indonesia’s Coastal and Sea Areas
 
 - 10CASA0023
 
+- Criticism 1 Nunn et al (2021) Seawalls as maladaptations along island coasts https://www.sciencedirect.com/science/article/abs/pii/S0964569121000399?casa_token=3ErEoQPI2QsAAAAA:0aQskpbCflgGu0qxf-_6ZfVAKFWVBhv3GJkpZiouQvEK2qrsIqf8Hl_6dQhb8cf9CETywHDyNAv 
 
+- Causes of LS 1 Bott et al., 2021 Land subsidence in Jakarta and Semarang Bay – The relationship between physical processes, risk perception, and household adaptation https://www.sciencedirect.com/science/article/pii/S0964569121002581 
+
+- Causes of LS 2 Adibin et al., 2011 Land subsidence of Jakarta (Indonesia) and its
+relation with urban development, Nat. Hazards, 59, 1753–1771,
+2011. https://www.sciencedirect.com/science/article/pii/S0964569121002581 
 
