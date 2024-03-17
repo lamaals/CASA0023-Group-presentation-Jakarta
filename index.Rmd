@@ -102,7 +102,7 @@ knitr::include_graphics("Map-of-administration-of-Jakarta-Province.jpg")
 
 * Total population is 10 million within the city, while the total population of the entire metro area is 30 million. 
 
-* This makes it the second largest megacity in the world. 
+* This makes it the second largest mega city in the world. 
 
 ```{r echo=FALSE, out.width="75%", fig.align='center',fig.cap=''}
 knitr::include_graphics("jkt_population.jpg")
@@ -133,7 +133,7 @@ knitr::include_graphics("jakart_submerged.jpeg")
 ]
 
 .pull-right[ 
-* Jakarta, the capital of Indonesia, has been at risk of becoming the first megacity to completely sink. This is attributed to factors such as rising sea levels, land subsidence, construction on soft sediments, and natural sediment compaction. 
+* Jakarta, the capital of Indonesia, has been at risk of becoming the first entire mega city to sink. This is attributed to various factors such as rising sea levels, land subsidence, construction on soft sediments, and natural sediment compaction. 
 
 * The northern part of Jakarta currently sits approximately 2.5 meters below sea level, with estimates indicating that by 2050, 40% of the area will be sunk. Each year, Jakarta experiences between 1 to 10 sinking incidents. ]
 
@@ -143,7 +143,7 @@ knitr::include_graphics("jakart_submerged.jpeg")
 
 .pull-left[ 
 
-<span style="font-size: 12pt;">  To protect Jakarta from coastal flooding, the National Capital Integrated Coastal Development (NCID) was developed, with the main plan surrounding the construction of a sea wall which could reach 32km in length `r Citep(myBib,"indonesiainvestmentsGiantSeaWall")`.
+<span style="font-size: 12pt;">  To protect Jakarta from coastal flooding, the National Capital Integrated Coastal Development (NCICD) was proposed, with the main plan surrounding the construction of seawall which could reach 32km in length `r Citep(myBib,"indonesiainvestmentsGiantSeaWall")`.
 
   <img src="sea_wall.jpg" width="320" height="240" /> 
 
@@ -153,20 +153,20 @@ knitr::include_graphics("jakart_submerged.jpeg")
 **Limitations to this policy:**
 
 
-* Sea wall requires frequent maintenance due to coastal erosion `r Citep(myBib,"nunnSeawallsMaladaptationsIsland2021")`.
+* Seawall requires frequent maintenance due to coastal erosion. `r Citep(myBib,"nunnSeawallsMaladaptationsIsland2021")`.
 
 * Only provides coastal defense than solving the root cause (land subsidence).
 
 * Creates conflict with dynamic coastal nature and blocks sediment exchange between land and sea.
 
-* Disrupts shoreline processes and ruins coastal habitats `r Citep(myBib,"falashifahGIANTSEAWALL2021")`.  
+* Disrupts shoreline processes and ruins coastal habitats and ecosystems `r Citep(myBib,"falashifahGIANTSEAWALL2021")`.  
 
 ]
 ]
 
 .panel[.panel-name[The Main Cause]
 
-* Land subsidence in Jakarta displays spatial and temporal variations, typically occurring at rates of approximately 3 to 10 centimetre's per year. 
+* Land subsidence in Jakarta displays spatial and temporal variations, typically occurring at rates of approximately 3 to 10 centimetres per year. 
 
 * Currently, detailed understanding of the characteristics and mechanisms of land subsidence in Jakarta, both spatially and temporally, remains incomplete `r Citep(myBib,"abidinStudyRiskImpacts2015")`. 
 
@@ -185,11 +185,10 @@ knitr::include_graphics("Main_cause_Final.jpg")
 ## Causes of Subsidence
 
 .pull-left[
-* Physical factors: earthquakes. Indonesia is located on destructive plate boundaries where earthquakes happen frequently `r Citep(myBib,"bottLandSubsidenceJakarta2021")`.
+* Physical factors: natural sediment compaction/ consolidation of alluvium soil and earthquakes. Indonesia is located on destructive plate boundaries where earthquakes happen frequently `r Citep(myBib,"bottLandSubsidenceJakarta2021")`.
 
 * Human/ social factors: groundwater extraction, rapid urban development, improper agricultural practices `r Citep(myBib,"abidinLandSubsidenceJakarta2011")`. 
 
-* Natural consolidation of alluvium soil, load of infrastructures and constructions, and tectonic activities.  
 
 ]
 
@@ -604,11 +603,11 @@ styled_table
 
 ### Limitations
 
-- Problem of mis-trust between public and government effecting participatory and consultative meetings`r Citep(myBib,"dedenrukmanaFloodGovernanceJakarta2016")`. 
+- Problem of mistrust between public and government affecting participatory and consultative meetings `r Citep(myBib,"dedenrukmanaFloodGovernanceJakarta2016")`. 
 
-- Unexpected Employee turnover.
+- Unexpected employee turnover.
 
-- Unexpected Data cost at freeware platforms `r Citep(myBib,"bottLandSubsidenceJakarta2021")`.
+- Unexpected data cost at freeware platforms `r Citep(myBib,"bottLandSubsidenceJakarta2021")`.
 
 - Change of government.
  
@@ -618,7 +617,7 @@ styled_table
 
 ### Mitigation
 
-- Participatory Learning Application of Consultative meeting would create trust and engagement between the public and government.
+- Participatory Learning Application of consultative meeting would create trust and engagement between the public and government.
 
 - Maintaining the data infrastructure of our project for smooth workflow.
 
