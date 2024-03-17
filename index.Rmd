@@ -1,10 +1,10 @@
 ---
-title: "JAKARTA -Saving the World's Fastest Sinking City"
-subtitle: "Group Work"
+title: "JAKARTA: Saving the World's Fastest Sinking City"
+subtitle: "CASA0023 Group Project"
 author: "Lama Alswliman, Wing Ka Ho, Madeleine Potter, Geetanjli Rani & Burhan Ahmad Wani"
 
-institute: "University College London"
-date: "2024/03/19"
+institute: 
+date: "19/03/2024"
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
@@ -79,8 +79,9 @@ style_mono_accent(
 
 * Jakarta is home to significant financial institutions like the Indonesia Stock Exchange and the Bank of Indonesia.
 
-* It also serves as the corporate headquarters for numerous Indonesian companies and multinational corporations. This underscores its pivotal role in the country's economy.
+* It also serves as the corporate headquarters for numerous Indonesian companies and multinational corporations. This underscores its pivotal role in the country's economy `r Citep(myBib,"julianagunawanBuildingIndonesiaResilience2016")`.
  
+
 ```{r echo=FALSE, out.width="70%",fig.align='center'}
 knitr::include_graphics("Jakarta-map.png")
 ```
@@ -106,6 +107,8 @@ knitr::include_graphics("Map-of-administration-of-Jakarta-Province.jpg")
 ```{r echo=FALSE, out.width="75%", fig.align='center',fig.cap=''}
 knitr::include_graphics("jkt_population.jpg")
 ```
+From: `r Citet(myBib,"sabinFreeStreetsWorld2023")`
+
 ]
 ]
 
@@ -140,7 +143,7 @@ knitr::include_graphics("jakart_submerged.jpeg")
 
 .pull-left[ 
 
-* To protect Jakarta from coastal flooding, the National Capital Integrated Coastal Development (NCID) was developed, with the main plan surrounding the construction of a sea wall which could reach 32km in length `r Citet(myBib,"GiantSeaWall")`.
+<span style="font-size: 12pt;">  To protect Jakarta from coastal flooding, the National Capital Integrated Coastal Development (NCID) was developed, with the main plan surrounding the construction of a sea wall which could reach 32km in length `r Citep(myBib,"indonesiainvestmentsGiantSeaWall")`.
 
   <img src="sea_wall.jpg" width="320" height="240" /> 
 
@@ -149,13 +152,14 @@ knitr::include_graphics("jakart_submerged.jpeg")
 
 **Limitations to this policy:**
 
-* Sea wall requires frequent maintenance from coastal erosion and will destroy Jakarta Bay's natural landscape.
+
+* Sea wall requires frequent maintenance due to coastal erosion `r Citep(myBib,"nunnSeawallsMaladaptationsIsland2021")`.
 
 * Only provides coastal defense than solving the root cause (land subsidence).
 
 * Creates conflict with dynamic coastal nature and blocks sediment exchange between land and sea.
 
-* Disrupts shoreline processes and ruin coastal habitats like intertidal beaches.  
+* Disrupts shoreline processes and ruins coastal habitats `r Citep(myBib,"falashifahGIANTSEAWALL2021")`.  
 
 ]
 ]
@@ -164,7 +168,7 @@ knitr::include_graphics("jakart_submerged.jpeg")
 
 * Land subsidence in Jakarta displays spatial and temporal variations, typically occurring at rates of approximately 3 to 10 centimetre's per year. 
 
-* Currently, detailed understanding of the characteristics and mechanisms of land subsidence in Jakarta, both spatially and temporally, remains incomplete. 
+* Currently, detailed understanding of the characteristics and mechanisms of land subsidence in Jakarta, both spatially and temporally, remains incomplete `r Citep(myBib,"abidinStudyRiskImpacts2015")`. 
 
 * Accurately estimating and modelling the contribution of each causative factor to observed land subsidence in specific areas is still necessary.
 
@@ -181,9 +185,9 @@ knitr::include_graphics("Main_cause_Final.jpg")
 ## Causes of Subsidence
 
 .pull-left[
-* Physical factors: earthquakes. Indonesia is located on destructive plate boundaries where earthquakes happen frequently (Causes of LS 1).
+* Physical factors: earthquakes. Indonesia is located on destructive plate boundaries where earthquakes happen frequently `r Citep(myBib,"bottLandSubsidenceJakarta2021")`.
 
-* Human/ social factors: groundwater extraction, rapid urban development, improper agricultural practices (Causes of LS 2). 
+* Human/ social factors: groundwater extraction, rapid urban development, improper agricultural practices `r Citep(myBib,"abidinLandSubsidenceJakarta2011")`. 
 
 * Natural consolidation of alluvium soil, load of infrastructures and constructions, and tectonic activities 
 
@@ -192,6 +196,8 @@ knitr::include_graphics("Main_cause_Final.jpg")
 
 .pull-right[
 <img src="jakarta_sinking_animated.gif" width="320" height="240" />
+
+From: `r Citet(myBib,"sheryltiantongleeJakartaIndonesiaCapital2023")`
 ]
 
 
@@ -217,6 +223,8 @@ knitr::include_graphics("Main_cause_Final.jpg")
  
 * Deterioration in function of building and infrastructures
 
+`r Citet(myBib,"ohenhenSlowlySurelyExposure2024")`
+
 ]
 
 .panel[.panel-name[Environment]
@@ -233,6 +241,8 @@ knitr::include_graphics("Main_cause_Final.jpg")
 
 * Deterioration in quality of environmental condition
 
+`r Citet(myBib,"abidinEnvironmentalImpactsLand2015")`
+
 ]
 
 .panel[.panel-name[Economic]
@@ -243,7 +253,11 @@ knitr::include_graphics("Main_cause_Final.jpg")
 
 * Abandoned buildings and facilities.
 
-* Disruption to economic activities
+* Disruption to economic activities.
+
+`r Citet(myBib,"arieldinarLandSubsidenceForgotten2018")`
+
+
 ]
 
 .panel[.panel-name[Social]
@@ -253,6 +267,8 @@ knitr::include_graphics("Main_cause_Final.jpg")
 * Possibility of seawater intrusion to the lowered groundwater table, thus lack of clean water supply
 
 * Disruption to daily activities of people.
+
+`r Citet(myBib,"abidinEnvironmentalImpactsLand2015")`
 ]
 ]
 
@@ -411,7 +427,7 @@ knitr::include_graphics('edited_methodology.png')
 
 1. Perform a permutation feature importance analysis to measure the contribution of each feature to the model.
 
-1. Map out land subsidence susceptibility that identifies areas of very high, high, moderate, low and very low susceptibility. 
+1. Map out land subsidence susceptibility that identifies areas of very low, low, moderate, high and very high susceptibility `r Citep(myBib,"eghrariLANDSUBSIDENCESUSCEPTIBILITY2023")`. 
 
 ![](risk_scale.png)
 
@@ -430,7 +446,7 @@ knitr::include_graphics('edited_methodology.png')
 
 1. Combine hazard and vulnerability maps by producing a risk index.
 
-1. Using risk index, produce a risk map showing areas at very high risk, high risk, moderate risk, low risk and very low risk.
+1. Using risk index, produce a risk map showing areas at very low risk, low risk, moderate risk, high risk and very high risk `r Citep(myBib,"bhattaraiRiskAssessmentLand2017")`. 
 
 ![](multicriteria_analysis.png)
 ---
@@ -526,7 +542,7 @@ class: top
 knitr::include_graphics('SlideRA.jpg')
 
 ```
-8, 9
+`r Citep(myBib,"taftazaniSpatialAnalysisGroundwater2022")` 
 ---
 ## Resource Allocation
 
@@ -535,22 +551,22 @@ knitr::include_graphics('SlideRA.jpg')
 knitr::include_graphics('RA.jpg')
 
 ```
-7, 8, 9, 10
+`r Citep(myBib,"tademayurApplicationsRemoteSensing", "taftazaniSpatialAnalysisGroundwater2022")`
+`r Citep(myBib,"bottLandSubsidenceJakarta2021")`
 ---
 
 ## Project: Gantt Chart
 
 **Experts: TL<sup>1</sup>, LDA<sup>2</sup>, GE<sup>3</sup>, GO<sup>4</sup>, WRE<sup>5</sup>, NO<sup>6</sup>.**
 
-```{r echo=FALSE, out.width='80%', fig.align='center'}
+```{r echo=FALSE, out.width='75%', fig.align='center'}
 
 knitr::include_graphics('GC.jpg')
 
 ```
 .footnote[
-[1] Team Leader [2] Lead Data Analyst [3] Geo-spatial Expert [4] Geologist 
-
-[5] Water Resource Expert [6] Nodal Officer 7, 8, 9
+<span style="font-size: 12pt;"> [1] Team Leader [2] Lead Data Analyst [3] Geo-spatial Expert [4] Geologist [5] Water Resource Expert [6] Nodal Officer
+`r Citep(myBib,"tademayurApplicationsRemoteSensing", "taftazaniSpatialAnalysisGroundwater2022")` </span> 
 
 ]
 
@@ -588,11 +604,11 @@ styled_table
 
 ### Limitations
 
-- Problem of mis-trust between public and government effecting participatory and consultative meetings.
+- Problem of mis-trust between public and government effecting participatory and consultative meetings`r Citep(myBib,"dedenrukmanaFloodGovernanceJakarta2016")`. 
 
 - Unexpected Employee turnover.
 
-- Unexpected Data cost at freeware platforms 10.
+- Unexpected Data cost at freeware platforms `r Citep(myBib,"bottLandSubsidenceJakarta2021")`.
 
 - Change of government.
  
@@ -602,11 +618,11 @@ styled_table
 
 ### Mitigation
 
-- Participatory Learning Application of Consultative meeting would create trust and engagement between the people of Jakarta and the government.
+- Participatory Learning Application of Consultative meeting would create trust and engagement between the public and government.
 
-- Maintaining the data infrastructure of our project for smooth transition.
+- Maintaining the data infrastructure of our project for smooth workflow.
 
-- Alternative data sets from other satellite imagery are available with increased processing, validation etc.
+- Alternative data sets from other satellites are available.
 
 - Uniform budget-head transition with changing political parties.
 
@@ -642,50 +658,28 @@ knitr::include_graphics('Land_sub.png')
 
 ]
 ---
-```{r xaringan-all, echo=FALSE, warning=FALSE}
-```
 class: text-justify
 
 ## References 1
-
-- <span style="font-size: 12pt;"> 1). Final version - Master Plan. National Capital Integrated Coastal Development.</span>
-
-- <span style="font-size: 12pt;"> 2). Integrated Coastal Area Management of the North Coast of Jakarta in the Use of Coastal Space.</span>
-
-- <span style="font-size: 12pt;"> 3). Case Study: C40 Good Practice Guides: Jakarta - Coastal Defense Strategy and Flood Mapping</span>
-
-- <span style="font-size: 12pt;"> 4). Case Study: C40 Good Practice Guides: Jakarta - Coastal Defense Strategy and Flood Mapping Management Regulation of Indonesia’s Coastal and Sea Areas</span>
-
-- <span style="font-size: 12pt;"> 5). COASTAL ZONE SPACE IN INDONESIA: PRELUDE TO CONFLICT?</span>
-
-- <span style="font-size: 12pt;"> 6). [Article: Indonesia's giant capital city is sinking can the governments plan save it](https://www.nationalgeographic.com/environment/article/indonesias-giant-capital-city-is-sinking-can-the-governments-plan-save-it)</span>
-
-- <span style="font-size: 12pt;"> 7).[Courseware CUTM](https://courseware.cutm.ac.in/wp-content/uploads/2020/06/Application-of-remote-sensing-in-CZM.pdf)</span>
-
-- <span style="font-size: 12pt;"> 8). https://hilmanpr21.github.io/CASA0023_group-presentation/?panelset1=social2#1 </span>
-
-- <span style="font-size: 12pt;"> 9). https://www.mdpi.com/2073-4441/14/20/3197 </span>
-
-- <span style="font-size: 12pt;"> 10). https://www.sciencedirect.com/science/article/pii/S0964569121002581 </span>
+```{r echo=FALSE, warning=FALSE, results='asis'}
+PrintBibliography(myBib, start = 1, end = 6)
+```
 
 ---
-```{r xaringan-all, echo=FALSE, warning=FALSE}
-```
 class: text-justify
 
 ## References 2
+```{r echo=FALSE, warning=FALSE, results='asis'}
+PrintBibliography(myBib, start = 7, end = 10)
+```
+---
+class: text-justify
 
-- <span style="font-size: 12pt;"> 11). [CASA0023](https://andrewmaclachlan.github.io/CASA0023/) </span>
+## References 3
+```{r echo=FALSE, warning=FALSE, results='asis'}
+PrintBibliography(myBib, start = 11, end = 11)
+```
 
-- <span style="font-size: 12pt;"> 12). [Criticism 1 Nunn et al (2021) Seawalls as maladaptations along island coasts](https://www.sciencedirect.com/science/article/abs/pii/S0964569121000399?casa_token=3ErEoQPI2QsAAAAA:0aQskpbCflgGu0qxf-_6ZfVAKFWVBhv3GJkpZiouQvEK2qrsIqf8Hl_6dQhb8cf9CETywHDyNAv) </span>
 
-- <span style="font-size: 12pt;"> 13). [Causes of LS 1 Bott et al., 2021 Land subsidence in Jakarta and Semarang Bay – The relationship between physical processes, risk perception, and household adaptation](https://www.sciencedirect.com/science/article/pii/S0964569121002581) </span>
 
-- <span style="font-size: 12pt;"> 14). [Causes of LS 2 Adibin et al., 2011 Land subsidence of Jakarta (Indonesia) and its relation with urban development, Nat. Hazards, 59, 1753–1771,2011](https://www.sciencedirect.com/science/article/pii/S0964569121002581) </span>
 
-this is for maddie to do refrenceing 
-Criticizing sea wall approch are all taken from this PDF (GIANT SEA WALL CONSTRUCTION: IS IT THE RIGHT SOLUTION TO OVERCOME JAKARTA'S SINKING? Research Project for Environmental Management)
-
-Significance of jakarta(Building Indonesia’s Resilience to Disaster)
-
-Main cause in highlighting the problem part (Study on the risk and impacts of land subsidence in Jakarta https://d-nb.info/1142926850/34 )
