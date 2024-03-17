@@ -189,7 +189,7 @@ knitr::include_graphics("Main_cause_Final.jpg")
 
 * Human/ social factors: groundwater extraction, rapid urban development, improper agricultural practices `r Citep(myBib,"abidinLandSubsidenceJakarta2011")`. 
 
-* Natural consolidation of alluvium soil, load of infrastructures and constructions, and tectonic activities 
+* Natural consolidation of alluvium soil, load of infrastructures and constructions, and tectonic activities.  
 
 ]
 
@@ -219,9 +219,9 @@ From: `r Citet(myBib,"sheryltiantongleeJakartaIndonesiaCapital2023")`
 
 * Breaking of underground pipelines and utilities.
 
-* Malfunction of sewerage and drainage system 
+* Malfunction of sewage and drainage system. 
  
-* Deterioration in function of building and infrastructures
+* Deterioration in function of building and infrastructures.
 
 `r Citet(myBib,"ohenhenSlowlySurelyExposure2024")`
 
@@ -237,9 +237,9 @@ From: `r Citet(myBib,"sheryltiantongleeJakartaIndonesiaCapital2023")`
 
 * Inundated areas and infrastructures.
 
-* Increased inland sea water intrusion.
+* Increasing the risks of inland sea water intrusion.
 
-* Deterioration in quality of environmental condition
+* Deterioration in the quality of environmental condition (local ecosystem).
 
 `r Citet(myBib,"abidinEnvironmentalImpactsLand2015")`
 
@@ -249,7 +249,7 @@ From: `r Citet(myBib,"sheryltiantongleeJakartaIndonesiaCapital2023")`
 
 * Increase in maintenance cost of infrastructure.
 
-* decrease in land and property values.
+* Decrease in land and property values.
 
 * Abandoned buildings and facilities.
 
@@ -285,7 +285,7 @@ knitr::include_graphics("SendaiFramrwork.jpeg")
 .pull-right[
 
 
-* To understand disaster risk
+* To understand disaster risk under climate change
 
 * To reduce vulnerability of coastal regions by enhancing resilience capacity e.g., preparedness to disasters
 
@@ -385,7 +385,7 @@ The NCICD considers a variety of aspects such as flood safety, land reclamation,
 
 - Protection of businesses and industry such as coastal tourism. 
 
-- To ensure clean groundwater supply by avoiding seawater intrusion to groundwater table
+- To ensure clean groundwater supply by avoiding seawater intrusion to groundwater table.
 
 ---
 
@@ -453,7 +453,7 @@ knitr::include_graphics('edited_methodology.png')
 ## Data
 
 .panelset[
-.panel[.panel-name[Conditional Settings]
+.panel[.panel-name[Environmental]
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
@@ -487,7 +487,7 @@ hist %>%
 ```
 ]
 
-.panel[.panel-name[Socio-economic Settings]
+.panel[.panel-name[Social]
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 socioecon <- read_excel("Socio_economic.xlsx")
 
