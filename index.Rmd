@@ -87,13 +87,14 @@ style_mono_accent(
 ```{r echo=FALSE,fig.cap=''}
 knitr::include_graphics("map_for_problem.jpg")
 ```
+<span style="font-size: 11pt;"> `r Citet(myBib,"ploutarchostzampoglouWaterFreeFullText2023")`. 
 
 ]
 
 .pull-right[ 
-* Jakarta, located in a lowland delta area with close to 50% below regional water level, is vulnerable to coastal and river flooding due to monsoons, sea-level rise and insufficient and faulty drainage infrastructure. 
+* Jakarta, located in a lowland delta area with close to 50% below regional water level, is vulnerable to coastal and river flooding due to monsoons, sea-level rise and insufficient and faulty drainage infrastructure `r Citep(myBib,"c40citiesC40GoodPractice2016")`. 
 
-* An estimated 90% of North Jakarta is expected to lie below sea level in 2030 and the 13 rivers and canals of Jakarta are projected to stop flowing freely to the sea around 2025 if no measures are taken.
+* An estimated 90% of North Jakarta is expected to lie below sea level in 2030 `r Citep(myBib,"c40citiesC40GoodPractice2016")`.
 
 
  ] 
@@ -136,6 +137,7 @@ knitr::include_graphics("map_for_problem.jpg")
 ```{r echo=FALSE, out.width="50%", fig.align='center',fig.cap=''}
 knitr::include_graphics("land_sub_rate_map.jpg")
 ```
+<span style="font-size: 11pt;"> From: `r Citet(myBib,"abidinStudyRiskImpacts2015a")`
 ]
 ]
 
@@ -176,7 +178,7 @@ knitr::include_graphics("Map-of-administration-of-Jakarta-Province.jpg")
 ```{r echo=FALSE, out.width="75%", fig.align='center',fig.cap=''}
 knitr::include_graphics("jkt_population.jpg")
 ```
-From: `r Citet(myBib,"sabinFreeStreetsWorld2023")`
+<span style="font-size: 12pt;"> From: `r Citet(myBib,"sabinFreeStreetsWorld2023")`
 
 ]
 ]
@@ -201,7 +203,7 @@ From: `r Citet(myBib,"sabinFreeStreetsWorld2023")`
 .pull-right[
 <img src="jakarta_sinking_animated.gif" width="320" height="240" />
 
-From: `r Citet(myBib,"sheryltiantongleeJakartaIndonesiaCapital2023")`
+<span style="font-size: 12pt;"> From: `r Citet(myBib,"sheryltiantongleeJakartaIndonesiaCapital2023")`
 ]
 
 
@@ -493,27 +495,27 @@ socioecon %>%
 
 .pull-left[
 
-Susceptibility Map 
+**Susceptibility Map** 
 
 ```{r echo=FALSE, out.width='90%', fig.align='center', fig.cap=''}
 knitr::include_graphics('eg_susceptibility.png')
 
 ```
 
-Source: `r Citet(myBib,"gharechaeeLandSubsidenceSusceptibility2023")`
+<span style="font-size: 12pt;"> Source: `r Citet(myBib,"gharechaeeLandSubsidenceSusceptibility2023")`
 
 ]
 
 .pull-right[
 
-Risk Map 
+**Risk Map** 
 
 ```{r echo=FALSE, out.width='87%', fig.align='center', fig.cap=''}
 knitr::include_graphics('eg_risk.png')
 
 ```
 
-Source: `r Citet(myBib,"bhattaraiRiskAssessmentLand2017")`
+<span style="font-size: 12pt;"> Source: `r Citet(myBib,"bhattaraiRiskAssessmentLand2017")`
 ]
 
 
@@ -658,7 +660,7 @@ class: text-justify
 
 ## References 3
 ```{r echo=FALSE, warning=FALSE, results='asis'}
-PrintBibliography(myBib, start = 11, end = 11)
+PrintBibliography(myBib, start = 11, end = 13)
 ```
 
 
