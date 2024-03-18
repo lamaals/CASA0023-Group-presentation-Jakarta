@@ -637,7 +637,6 @@ class: text-justify
 
 ## Summary
 
-.pull-left[
 - Jakarta is sinking and the NCICD does little to address the main cause which is land subsidence. 
 
 - This project aims to improve monitoring and decision-making by providing up-to-date land subsidence susceptibility and risk maps.
@@ -647,16 +646,10 @@ class: text-justify
   - Further evidence based and data driven policy and action.
   - Prevent future economic losses.
   - Mitigate fluvial, pluvial and coastal flood risk.
-]
 
-.pull-right[
-```{r echo=FALSE, out.width='100%', fig.align='center', fig.cap=''}
-knitr::include_graphics('Land_sub.png')
 
-```
-<small>From: Land Subsidence vs Climate Change - Jakarta, Source: [Journal of Water and Climate Change](https://climatescience.ru/uploads/pubs/0/04/04f/04f04a32145609d55ad7d154c9136fef.pdf)</small>
 
-]
+
 ---
 class: text-justify
 
