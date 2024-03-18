@@ -1,9 +1,9 @@
 ---
-title: "JAKARTA: Saving the World's Fastest Sinking City"
-subtitle: "CASA0023 Group Project"
+title: "Supporting Jakarta To Stop Land Subsidence"
+subtitle: "Act now! Stop the sinking!"
 author: "Lama Alswliman, Wing Ka Ho, Madeleine Potter, Geetanjli Rani & Burhan Ahmad Wani"
 
-institute: 
+institute: "CASA0023 Group Project"
 date: "19/03/2024"
 output:
   xaringan::moon_reader:
@@ -71,6 +71,75 @@ style_mono_accent(
 )
 
 ```
+
+```{r xaringan-all, echo=FALSE, warning=FALSE, out.width="100%"}
+```
+
+## Highlighting the problem 
+
+
+.panelset[
+
+.panel[.panel-name[Highlight]
+
+.pull-left[ 
+
+```{r echo=FALSE,fig.cap=''}
+knitr::include_graphics("map_for_problem.jpg")
+```
+
+]
+
+.pull-right[ 
+* Jakarta, located in a lowland delta area with close to 50% below regional water level, is vulnerable to coastal and river flooding due to monsoons, sea-level rise and insufficient and faulty drainage infrastructure. 
+
+* An estimated 90% of North Jakarta is expected to lie below sea level in 2030 and the 13 rivers and canals of Jakarta are projected to stop flowing freely to the sea around 2025 if no measures are taken.
+
+
+ ] 
+
+]
+
+.panel[.panel-name[The Problem]
+
+* The rapid rates of land subsidence play a key role in relative sea- level rise: estimates suggest an average subsidence rate of 40 mm/year, in some places up to 20 cm/year.
+
+* As the sea-level rises, saltwater intrusion of groundwater tables also becomes a problem.
+
+* Currently, detailed understanding of the characteristics and mechanisms of land subsidence in Jakarta, both spatially and temporally, remains incomplete `r Citep(myBib,"abidinStudyRiskImpacts2015")`. 
+
+.panel[.panel-name[Existing Policy]
+
+.pull-left[ 
+
+<span style="font-size: 12pt;">  To protect Jakarta from coastal flooding, the National Capital Integrated Coastal Development (NCICD) under their Master Plan was proposed, with the main plan surrounding the construction of seawall which could reach 32km in length `r Citep(myBib,"indonesiainvestmentsGiantSeaWall")`.
+
+  <img src="sea_wall.jpg" width="320" height="240" /> 
+
+]
+.pull-right[
+
+**Limitations to this policy:**
+
+
+* Seawall requires frequent maintenance due to coastal erosion. `r Citep(myBib,"nunnSeawallsMaladaptationsIsland2021")`.
+
+* Only provides coastal defense than solving the root cause (land subsidence).
+
+* Creates conflict with dynamic coastal nature and blocks sediment exchange between land and sea.
+
+* Disrupts shoreline processes and ruins coastal habitats and ecosystems `r Citep(myBib,"falashifahGIANTSEAWALL2021")`.  
+
+]
+]
+
+```{r echo=FALSE, out.width="50%", fig.align='center',fig.cap=''}
+knitr::include_graphics("land_sub_rate_map.jpg")
+```
+]
+]
+
+---
 # The significance of Jakarta
 
 .panelset.sideways[
@@ -114,71 +183,7 @@ From: `r Citet(myBib,"sabinFreeStreetsWorld2023")`
 
   
 ---
-```{r xaringan-all, echo=FALSE, warning=FALSE, out.width="100%"}
-```
 
-## Highlighting the problem 
-
-
-.panelset[
-
-.panel[.panel-name[The Sinking Capital]
-
-.pull-left[ 
-
-```{r echo=FALSE,fig.cap=''}
-knitr::include_graphics("jakart_submerged.jpeg")
-```
-
-]
-
-.pull-right[ 
-* Jakarta has been at risk of becoming the first entire megacity to sink. This is attributed to various factors such as rising sea levels, land subsidence, construction on soft sediments, and natural sediment compaction `r Citep(myBib,"julianagunawanBuildingIndonesiaResilience2016")`. 
-
-* The northern part of Jakarta currently sits approximately 2.5 meters below sea level, with estimates indicating that by 2050, 40% of the area will be sunk. Each year, Jakarta experiences between 1 to 10 sinking incidents `r Citep(myBib,"tanJakartaSinksRising2023")`. ] 
-
-]
-
-.panel[.panel-name[NCICD]
-
-.pull-left[ 
-
-<span style="font-size: 12pt;">  To protect Jakarta from coastal flooding, the National Capital Integrated Coastal Development (NCICD) was proposed, with the main plan surrounding the construction of seawall which could reach 32km in length `r Citep(myBib,"indonesiainvestmentsGiantSeaWall")`.
-
-  <img src="sea_wall.jpg" width="320" height="240" /> 
-
-]
-.pull-right[
-
-**Limitations to this policy:**
-
-
-* Seawall requires frequent maintenance due to coastal erosion. `r Citep(myBib,"nunnSeawallsMaladaptationsIsland2021")`.
-
-* Only provides coastal defense than solving the root cause (land subsidence).
-
-* Creates conflict with dynamic coastal nature and blocks sediment exchange between land and sea.
-
-* Disrupts shoreline processes and ruins coastal habitats and ecosystems `r Citep(myBib,"falashifahGIANTSEAWALL2021")`.  
-
-]
-]
-
-.panel[.panel-name[The Main Cause]
-
-* Land subsidence in Jakarta displays spatial and temporal variations, typically occurring at rates of approximately 3 to 10 centimetres per year. 
-
-* Currently, detailed understanding of the characteristics and mechanisms of land subsidence in Jakarta, both spatially and temporally, remains incomplete `r Citep(myBib,"abidinStudyRiskImpacts2015")`. 
-
-* Accurately estimating and modelling the contribution of each causative factor to observed land subsidence in specific areas is still necessary.
-
-```{r echo=FALSE, out.width="70%", fig.align='center',fig.cap=''}
-knitr::include_graphics("Main_cause_Final.jpg")
-```
-]
-]
-
----
 ```{r echo=FALSE, fig.width=5, warning=FALSE}
 ```
 
@@ -354,7 +359,7 @@ knitr::include_graphics("E_PRINT_15.jpg")
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
 ```
 
-## Benefits to Addressing Land Subsidence
+## Benefits of Addressing Land Subsidence
 
 The NCICD considers a variety of aspects such as flood safety, land reclamation, improving mobility and infrastructure and increasing environmental green space. By producing **enhanced information on land subsidence**, our project can directly improve solutions to all sections of the master plan.
 
@@ -397,41 +402,6 @@ knitr::include_graphics('edited_methodology.png')
 
 ```
 
----
-## Methodology: Susceptibility Mapping
-
-1. Split the remotely sensed data on previous land subsidence and influential environmental factors into training (70%) and testing (30%).
-
-1. Preprocess the data including building raster maps for each variable. 
-
-1. Employ Random Forest algorithm with cross validation to map land subsidence susceptibility.
-
-1. Validate the model using the testing data. 
-
-1. Perform a permutation feature importance analysis to measure the contribution of each feature to the model.
-
-1. Map out land subsidence susceptibility that identifies areas of very low, low, moderate, high and very high susceptibility `r Citep(myBib,"eghrariLANDSUBSIDENCESUSCEPTIBILITY2023")`. 
-
-![](risk_scale.png)
-
----
-```{r echo=FALSE, out.width='90%', fig.align='bottom', fig.cap=''}
-
-```
-
-## Methodology: Risk Mapping 
-
-1. Preprocess land subsidence and social data to create raster maps.
-
-1. Use Analytical Hierarchical Process (AHP) to calculate relative weights on both the land subsidence data and social data to indicate hazard and vulnerability. 
-
-1. Produce hazard and vulnerability maps using the calculated weights. 
-
-1. Combine hazard and vulnerability maps by producing a risk index.
-
-1. Using risk index, produce a risk map showing areas at very low risk, low risk, moderate risk, high risk and very high risk `r Citep(myBib,"bhattaraiRiskAssessmentLand2017")`. 
-
-![](multicriteria_analysis.png)
 ---
 ## Data
 
@@ -483,6 +453,41 @@ socioecon %>%
 ```
 ]
 ]
+---
+## Methodology: Susceptibility Mapping
+
+1. Split the remotely sensed data on previous land subsidence and influential environmental factors into training (70%) and testing (30%).
+
+1. Preprocess the data including building raster maps for each variable. 
+
+1. Employ Random Forest algorithm with cross validation to map land subsidence susceptibility.
+
+1. Validate the model using the testing data. 
+
+1. Perform a permutation feature importance analysis to measure the contribution of each feature to the model.
+
+1. Map out land subsidence susceptibility that identifies areas of very low, low, moderate, high and very high susceptibility `r Citep(myBib,"eghrariLANDSUBSIDENCESUSCEPTIBILITY2023")`. 
+
+![](risk_scale.png)
+
+---
+```{r echo=FALSE, out.width='90%', fig.align='bottom', fig.cap=''}
+
+```
+
+## Methodology: Risk Mapping 
+
+1. Preprocess land subsidence and social data to create raster maps.
+
+1. Use Analytical Hierarchical Process (AHP) to calculate relative weights on both the land subsidence data and social data to indicate hazard and vulnerability. 
+
+1. Produce hazard and vulnerability maps using the calculated weights. 
+
+1. Combine hazard and vulnerability maps by producing a risk index.
+
+1. Using risk index, produce a risk map showing areas at very low risk, low risk, moderate risk, high risk and very high risk `r Citep(myBib,"bhattaraiRiskAssessmentLand2017")`. 
+
+![](multicriteria_analysis.png)
 ---
 ## Example Outputs
 
@@ -548,7 +553,7 @@ knitr::include_graphics('GC.jpg')
 
 ```
 .footnote[
-<span style="font-size: 12pt;"> [1] Team Leader [2] Lead Data Analyst [3] Geo-spatial Expert [4] Geologist [5] Water Resource Expert [6] Nodal Officer
+<span style="font-size: 12pt;"> [1] Team Leader [2] Lead Data Analyst [3] Geo-spatial Expert [4] Geologist [5] Water Resource Expert [6] Nodal Officer, M=Month, xMS=Milestone, Color yellow=Activity Spread Over Month
 `r Citep(myBib,"tademayurApplicationsRemoteSensing", "taftazaniSpatialAnalysisGroundwater2022")` </span> 
 
 ]
