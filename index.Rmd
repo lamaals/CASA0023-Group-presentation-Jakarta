@@ -208,23 +208,17 @@ From: `r Citet(myBib,"sheryltiantongleeJakartaIndonesiaCapital2023")`
 
 .panelset[
 
+.panel[.panel-name[Social]
 
-.panel[.panel-name[Environment]
+* Possibility of seawater intrusion to the lowered groundwater table, thus lack of clean water supply
 
-* Changes in river canal and drain flow systems indirect.
+* Disruption to daily activities of people.
 
-* Frequent coastal flooding.
+* Damage of infrastructure
 
-* Wider expansion of flooding areas. 
 
-* Inundated areas and infrastructures.
-
-* Increasing the risks of inland sea water intrusion.
-
-* Deterioration in the quality of environmental condition (local ecosystem).
-
+`r Citet(myBib,"ohenhenSlowlySurelyExposure2024")`
 `r Citet(myBib,"abidinEnvironmentalImpactsLand2015")`
-
 ]
 
 .panel[.panel-name[Economic]
@@ -242,20 +236,22 @@ From: `r Citet(myBib,"sheryltiantongleeJakartaIndonesiaCapital2023")`
 
 ]
 
-.panel[.panel-name[Social]
-
-* Deterioration in quality of living environment and life health 
-
-* Possibility of seawater intrusion to the lowered groundwater table, thus lack of clean water supply
-
-* Disruption to daily activities of people.
-
-* Damage of infrastructure
+.panel[.panel-name[Environment]
 
 
-`r Citet(myBib,"ohenhenSlowlySurelyExposure2024")`
+* Frequent coastal flooding.
+
+* Inundated areas and infrastructures.
+
+* Increasing the risks of inland sea water intrusion.
+
+* Negative impacts on local ecosystem and biodiversity.
+
 `r Citet(myBib,"abidinEnvironmentalImpactsLand2015")`
+
 ]
+
+
 ]
 
 ---
