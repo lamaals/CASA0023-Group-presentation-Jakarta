@@ -208,23 +208,6 @@ From: `r Citet(myBib,"sheryltiantongleeJakartaIndonesiaCapital2023")`
 
 .panelset[
 
-.panel[.panel-name[Infrastructure]
-
-* Cracking of permanent constructions and roads.
-
-* Tilting of houses and buildings.
-
-* “Sinking” of houses and buildings.
-
-* Breaking of underground pipelines and utilities.
-
-* Malfunction of sewage and drainage system. 
- 
-* Deterioration in function of building and infrastructures.
-
-`r Citet(myBib,"ohenhenSlowlySurelyExposure2024")`
-
-]
 
 .panel[.panel-name[Environment]
 
@@ -267,6 +250,10 @@ From: `r Citet(myBib,"sheryltiantongleeJakartaIndonesiaCapital2023")`
 
 * Disruption to daily activities of people.
 
+* Damage of infrastructure
+
+
+`r Citet(myBib,"ohenhenSlowlySurelyExposure2024")`
 `r Citet(myBib,"abidinEnvironmentalImpactsLand2015")`
 ]
 ]
