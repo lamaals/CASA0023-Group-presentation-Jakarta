@@ -596,11 +596,11 @@ styled_table
 
 - Problem of mistrust between public and government affecting participatory and consultative meetings `r Citep(myBib,"dedenrukmanaFloodGovernanceJakarta2016")`. 
 
-- Unexpected employee turnover.
+- Unexpected "Employee Turnover"
 
 - Unexpected data cost at freeware platforms `r Citep(myBib,"bottLandSubsidenceJakarta2021")`.
 
-- Change of government.
+- Change of Government.
  
 ]
 
