@@ -1,7 +1,7 @@
 ---
 title: "Supporting Jakarta To Stop Land Subsidence"
 subtitle: "Act now! Stop the sinking!"
-author: "Lama Alswliman, Wing Ka Ho, Madeleine Potter, Geetanjli Rani & Burhan Ahmad Wani"
+author: "Jakarta Group"
 
 institute: "CASA0023 Group Project"
 date: "19/03/2024"
@@ -425,7 +425,7 @@ cond <- read_excel(here("Conditional_factors.xlsx"))
 cond %>%
   
   knitr::kable(format = 'html')%>%
-  kable_styling(full_width = FALSE, font_size = 10)
+  kable_styling(full_width = FALSE, font_size = 13.5)
 ```
 ]
 
@@ -438,7 +438,7 @@ hist <- read_excel("Historical_LS.xlsx")
 # Display the table using kableExtra with styling
 hist %>%
   knitr::kable(format = 'html') %>%
-  kable_styling(full_width = FALSE, font_size = 12)
+  kable_styling(full_width = FALSE, font_size = 16)
 ```
 ]
 
@@ -451,7 +451,7 @@ socioecon <- read_excel("Socio_economic.xlsx")
 # Display the table using kableExtra with styling
 socioecon %>%
   knitr::kable(format = 'html') %>%
-  kable_styling(full_width = FALSE, font_size = 12)
+  kable_styling(full_width = FALSE, font_size = 16)
 ```
 ]
 ]
