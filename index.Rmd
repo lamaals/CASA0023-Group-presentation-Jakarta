@@ -608,13 +608,13 @@ styled_table
 
 ### Mitigation
 
-- Participatory Learning Application of consultative meeting would create trust and engagement between the public and government.
+- Participatory Learning Application of consultative meetings would create trust and engagement between the public and government.
 
-- Maintaining the data infrastructure of our project for smooth workflow.
+- Maintaining a standard SOP so that the project isn't affected by leaving employees.
 
 - Alternative data sets from other satellites are available.
 
-- Uniform budget-head transition with changing political parties.
+- Uniform Budget-Head so that changing political parties doesn't affect the project.
 
 ]
 
