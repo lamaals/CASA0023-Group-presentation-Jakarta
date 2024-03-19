@@ -113,7 +113,7 @@ knitr::include_graphics("map_for_problem.jpg")
 
 .pull-left[ 
 
-<span style="font-size: 12pt;">  To protect Jakarta from coastal flooding, the National Capital Integrated Coastal Development (NCICD) under their Master Plan was proposed, with the main plan surrounding the construction of seawall which could reach 32km in length `r Citep(myBib,"indonesiainvestmentsGiantSeaWall")`.
+<span style="font-size: 12pt;">  To protect Jakarta from coastal flooding, **the National Capital Integrated Coastal Development (NCICD) under their Master Plan** was proposed, with the main plan surrounding the construction of seawall which could reach 32km in length `r Citep(myBib,"indonesiainvestmentsGiantSeaWall")`.
 
   <img src="sea_wall.jpg" width="320" height="240" /> 
 
