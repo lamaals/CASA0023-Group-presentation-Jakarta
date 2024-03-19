@@ -629,13 +629,13 @@ class: text-justify
 
 - Jakarta is sinking and the NCICD does little to address the main cause which is land subsidence. 
 
-- This project aims to improve monitoring and decision-making by providing up-to-date land subsidence susceptibility and risk maps.
+- Our project will improve monitoring and decision-making by providing up-to-date land subsidence susceptibility and risk maps.
 
 - This will allow for:
   - Reinforcement of the NCICD plan.
-  - Further evidence based and data driven policy and action.
+  - Further evidence-based and data-driven policy and action.
   - Prevent future economic losses.
-  - Mitigate fluvial, pluvial and coastal flood risk.
+  - Mitigate fluvial, pluvial, and coastal flood risk.
 
 
 
