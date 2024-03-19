@@ -262,11 +262,25 @@ knitr::include_graphics("jkt_population.jpg")
 ]
 
 ---
+## Benefits of our proposed project
+
+* To produce enhanced and comprehensive information on land subsidence.
+
+* To provide solutions to different aspects of the NCICD master plan -- enhancing flood safety, land reclamation, and reinforcement of infrastructure. 
+
+* To incorporate the global agendas and goals into regional development as promised during the UN meetings.
+
+```{r echo=FALSE, out.width="60%", fig.align='center'}
+knitr::include_graphics("UNDRR.jpeg")
+```
+
+---
 
 ## Global agendas and goals 1
 ###  The Sendai Framework for Disaster Risk Reduction (2015)
 
 .pull-left[
+
 ```{r echo=FALSE, out.width="80%"}
 knitr::include_graphics("SendaiFramrwork.jpeg")
 ```
@@ -275,13 +289,13 @@ knitr::include_graphics("SendaiFramrwork.jpeg")
 .pull-right[
 
 
-* To understand disaster risk under climate change
+* To understand disaster risks induced by land subsidence.
 
-* To reduce vulnerability of coastal regions by enhancing resilience capacity e.g., preparedness to disasters
+* To reduce vulnerability of coastal regions by enhancing resilience capacity e.g., preparedness and awareness to disasters. 
 
-* To strengthen local governance towards disaster risk management in accordance with this global framework
+* To strengthen local governance towards disaster risks management.
 
-* Recognises the state has the primary role for DRR
+* **Recognises the state has the primary role for DRR.**
 
 
 
@@ -295,14 +309,21 @@ knitr::include_graphics("SendaiFramrwork.jpeg")
 
 .pull-left[
 
-```{r echo=FALSE, out.width="80%"}
+```{r echo=FALSE, out.width="50%", fig.align= "center"}
 knitr::include_graphics("E_PRINT_06.jpg")
 ```
+
+<small> **Target 6.4**
+By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity </small>
 ]
 .pull-right[
-**Target 6.4**
 
-* By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity
+By addressing land subsidence, we can...
+
+* Avoid seawater intrusion to groundwater table.
+
+* Ensure clean groundwater supply be accessible and available to everyone
+
 ]
 
 
@@ -311,74 +332,49 @@ knitr::include_graphics("E_PRINT_06.jpg")
 .panel[.panel-name[SDG 11]
 .pull-left[
 
-```{r echo=FALSE, out.width="80%"}
+```{r echo=FALSE, out.width="50%", fig.align= "center"}
 knitr::include_graphics("E_PRINT_11.jpg")
 ```
+
+<small>**Target 11.3**
+By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries. </small>
 ]
 .pull-right[
-**Target 11.3**
 
-* By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries
+By addressing land subsidence, we can...
+
+* Protect local communities and businesses from disasters and risks.
+
+* Reduce exposure of local communities from land subsidence while sustaining urbanisation. 
 ]
 
-
-]
-
-.panel[.panel-name[SDG 13]
-.pull-left[
-
-```{r echo=FALSE, out.width="80%", }
-knitr::include_graphics("E_PRINT_13.jpg")
-```
-]
-.pull-right[
-**Target 13.1**
-
-* Strengthen resilience and adaptive capacity to climate-related hazards and natural disasters in all countries
-
-**Target 13.2**
-* Integrate climate change measures into national policies, strategies and planning
-
-]
 
 ]
 
 .panel[.panel-name[SDG 15]
 .pull-left[
-```{r echo=FALSE, out.width="80%"}
+```{r echo=FALSE, out.width="50%", fig.align= "center"}
 knitr::include_graphics("E_PRINT_15.jpg")
 ```
+
+<small>**Target 15.3**
+By 2030, combat desertification, restore degraded land and soil, including land affected by desertification, drought and floods, and strive to achieve a land degradation-neutral world. </small>
 ]
 .pull-right[
-**Target 15.3**
 
-* By 2030, combat desertification, restore degraded land and soil, including land affected by desertification, drought and floods, and strive to achieve a land degradation-neutral world
+By addressing land subsidence, we can...
+
+* Reduce damage to infrastructure such as roads and buildings.
+
+* Reduce flood risk in terms of extent.
+
+* Mitigate negative impacts on local (coastal) ecosystem. 
+
 ]
 ]
 ]
 <small>Source: [The 17 Goals | Sustainable Development](https://sdgs.un.org/goals)</small>
 ---
-```{r xaringan-all, echo=FALSE, warning=FALSE}
-```
-
-## Benefits of Addressing Land Subsidence
-
-The NCICD considers a variety of aspects such as flood safety, land reclamation, improving mobility and infrastructure and increasing environmental green space. By producing **enhanced information on land subsidence**, our project can directly improve solutions to all sections of the master plan.
-
-### Specific Benefits include
-
-- Reduced loss of land.
-
-- Reduced damage to infrastructure such as roads and buildings.
-
-- Reduced flood risk.
-
-- Protection of businesses and industry such as coastal tourism. 
-
-- To ensure clean groundwater supply by avoiding seawater intrusion to groundwater table.
-
----
-
 ```{r xaringan-all, echo=FALSE, warning=FALSE}
 ```
 
@@ -611,7 +607,7 @@ styled_table
 
 - Maintaining a standard SOP so that the project isn't affected by leaving employees.
 
-- Alternative data sets from other satellites are available.
+- Purchase alternative data sets, if needed, using the miscellaneous budget. 
 
 - Uniform Budget-Head so that changing political parties doesn't affect the project.
 
@@ -638,6 +634,10 @@ class: text-justify
 
 
 
+
+---
+class: center, inverse
+### Thanks all for your time!
 
 ---
 class: text-justify
