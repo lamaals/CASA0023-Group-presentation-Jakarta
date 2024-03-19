@@ -92,9 +92,9 @@ knitr::include_graphics("map_for_problem.jpg")
 ]
 
 .pull-right[ 
-* Jakarta, located in a lowland delta area with close to 50% below regional water level, is vulnerable to coastal and river flooding due to monsoons, sea-level rise and insufficient and faulty drainage infrastructure `r Citep(myBib,"c40citiesC40GoodPractice2016")`. 
+* Jakarta, **located in a lowland delta area** with close to **50% below regional water level, is vulnerable to coastal** and **river flooding due to monsoons, sea-level rise** and **insufficient** and **faulty drainage infrastructure** `r Citep(myBib,"c40citiesC40GoodPractice2016")`. 
 
-* An estimated 90% of North Jakarta is expected to lie below sea level in 2030 `r Citep(myBib,"c40citiesC40GoodPractice2016")`.
+* An estimated **90% of North Jakarta is expected to lie below sea level in 2030** `r Citep(myBib,"c40citiesC40GoodPractice2016")`.
 
 
  ] 
@@ -103,11 +103,11 @@ knitr::include_graphics("map_for_problem.jpg")
 
 .panel[.panel-name[The Problem]
 
-* The rapid rates of land subsidence play a key role in relative sea- level rise: estimates suggest an average subsidence rate of 40 mm/year, in some places up to 20 cm/year.
+* The rapid rates of **land subsidence** play a key role in **relative sea- level rise**: estimates suggest an average subsidence rate of 40 mm/year, in some places up to 20 cm/year.
 
-* As the sea-level rises, saltwater intrusion of groundwater tables also becomes a problem.
+* As the **sea-level rises, saltwater intrusion of groundwater tables** also becomes a problem.
 
-* Currently, detailed understanding of the characteristics and mechanisms of land subsidence in Jakarta, both spatially and temporally, remains incomplete `r Citep(myBib,"abidinStudyRiskImpacts2015")`. 
+* Currently, detailed understanding of the **characteristics and mechanisms of land subsidence** in Jakarta, both **spatially and temporally**, remains incomplete `r Citep(myBib,"abidinStudyRiskImpacts2015")`. 
 
 .panel[.panel-name[Existing Policy]
 
