@@ -391,7 +391,7 @@ The NCICD considers a variety of aspects such as flood safety, land reclamation,
   
 - Using these products:
 
-  - Identify areas that require careful monitoring and deployment of continuous global positioning systems. 
+  - Identify areas that require careful monitoring.
   - Provide evidence-based recommended action on sustainable water management and infrastructure zoning.
   - Comply with relevant national and international policies to intervene as appropriate. 
 
