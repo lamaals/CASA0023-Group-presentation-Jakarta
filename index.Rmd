@@ -219,7 +219,7 @@ knitr::include_graphics("jkt_population.jpg")
 
 * Possibility of seawater intrusion to the lowered groundwater table, thus lack of clean water supply
 
-* Disruption to daily activities of people.
+* Disturbance of people daily activities.
 
 * Damage of infrastructure
 
@@ -230,13 +230,13 @@ knitr::include_graphics("jkt_population.jpg")
 
 .panel[.panel-name[Economic]
 
-* Increase in maintenance cost of infrastructure.
+* Enlarge of infrastructure maintenance cost.
 
-* Decrease in land and property values.
+* Reduction in land and property values.
 
-* Abandoned buildings and facilities.
+* Buildings and facilities Abandonment.
 
-* Disruption to economic activities.
+* Disruption of economic activities.
 
 `r Citet(myBib,"arieldinarLandSubsidenceForgotten2018")`
 
